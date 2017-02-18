@@ -6,14 +6,18 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://9ajiang.cn">
-  <title>Archives | 9A&#39;s Blog</title>
+  <title>9A&#39;s Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
+  <meta name="description" content="{“name”:”hexo-util”,”version”:”0.6.0”,”description”:”Utilities for Hexo.”,”main”:”lib/index”,”scripts”:{“eslint”:”eslint .”,”jscs”:”jscs .”,”test”:”mocha test/index.js”,”test-cov”:”istanbul cover –pri">
+<meta property="og:type" content="article">
 <meta property="og:title" content="9A's Blog">
-<meta property="og:url" content="http://9ajiang.cn/archives/index.html">
+<meta property="og:url" content="http://9ajiang.cn/2017/02/18/CentOS-7-64bit配置LAMP/index.html">
 <meta property="og:site_name" content="9A's Blog">
+<meta property="og:description" content="{“name”:”hexo-util”,”version”:”0.6.0”,”description”:”Utilities for Hexo.”,”main”:”lib/index”,”scripts”:{“eslint”:”eslint .”,”jscs”:”jscs .”,”test”:”mocha test/index.js”,”test-cov”:”istanbul cover –pri">
+<meta property="og:updated_time" content="2017-01-04T16:17:38.705Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="9A's Blog">
+<meta name="twitter:description" content="{“name”:”hexo-util”,”version”:”0.6.0”,”description”:”Utilities for Hexo.”,”main”:”lib/index”,”scripts”:{“eslint”:”eslint .”,”jscs”:”jscs .”,”test”:”mocha test/index.js”,”test-cov”:”istanbul cover –pri">
   
     <link rel="alternative" href="/atom.xml" title="9A&#39;s Blog" type="application/atom+xml">
   
@@ -147,89 +151,120 @@ var _hmt = _hmt || [];
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-  
+            <article id="post-CentOS-7-64bit配置LAMP" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
     
-    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>{“name”:”hexo-util”,”version”:”0.6.0”,”description”:”Utilities for Hexo.”,”main”:”lib/index”,”scripts”:{“eslint”:”eslint .”,”jscs”:”jscs .”,”test”:”mocha test/index.js”,”test-cov”:”istanbul cover –print both _mocha – test/index.js”,”build:highlight”:”node scripts/build_highlight_alias.js &gt; highlight_alias.json”,”postinstall”:”npm run build:highlight”},”directories”:{“lib”:”./lib”},”repository”:{“type”:”git”,”url”:”git+<a href="https://github.com/hexojs/hexo-util.git&quot;},&quot;homepage&quot;:&quot;https://hexo.io/&quot;,&quot;keywords&quot;:[&quot;hexo&quot;,&quot;util&quot;,&quot;utilities&quot;],&quot;author&quot;:{&quot;name&quot;:&quot;Tommy" target="_blank" rel="external">https://github.com/hexojs/hexo-util.git&quot;},&quot;homepage&quot;:&quot;https://hexo.io/&quot;,&quot;keywords&quot;:[&quot;hexo&quot;,&quot;util&quot;,&quot;utilities&quot;],&quot;author&quot;:{&quot;name&quot;:&quot;Tommy</a> Chen”,”email”:”tommy351@gmail.com”,”url”:”<a href="http://zespia.tw&quot;},&quot;license&quot;:&quot;MIT&quot;,&quot;devDependencies&quot;:{&quot;chai&quot;:&quot;^3.5.0&quot;,&quot;eslint&quot;:&quot;^2.12.0&quot;,&quot;eslint-config-hexo&quot;:&quot;^1.0.3&quot;,&quot;istanbul&quot;:&quot;^0.4.3&quot;,&quot;jscs&quot;:&quot;^3.0.4&quot;,&quot;jscs-preset-hexo&quot;:&quot;^1.0.1&quot;,&quot;mocha&quot;:&quot;^2.5.3&quot;,&quot;rewire&quot;:&quot;^2.5.1&quot;},&quot;dependencies&quot;:{&quot;bluebird&quot;:&quot;^3.4.0&quot;,&quot;camel-case&quot;:&quot;^3.0.0&quot;,&quot;cross-spawn&quot;:&quot;^4.0.0&quot;,&quot;highlight.js&quot;:&quot;^9.4.0&quot;,&quot;html-entities&quot;:&quot;^1.2.0&quot;,&quot;striptags&quot;:&quot;^2.1.1&quot;},&quot;gitHead&quot;:&quot;e18c4bd2f94f1233ccfa408915abce74daa2a34a&quot;,&quot;bugs&quot;:{&quot;url&quot;:&quot;https://github.com/hexojs/hexo-util/issues&quot;},&quot;_id&quot;:&quot;hexo-util@0.6.0&quot;,&quot;_shasum&quot;:&quot;b5719cc2d44d9d45522dddcf96143919824b7803&quot;,&quot;_from&quot;:&quot;hexo-util@latest&quot;,&quot;_npmVersion&quot;:&quot;3.7.1&quot;,&quot;_nodeVersion&quot;:&quot;4.3.0&quot;,&quot;_npmUser&quot;:{&quot;name&quot;:&quot;tommy351&quot;,&quot;email&quot;:&quot;tommy351@gmail.com&quot;},&quot;dist&quot;:{&quot;shasum&quot;:&quot;b5719cc2d44d9d45522dddcf96143919824b7803&quot;,&quot;tarball&quot;:&quot;https://registry.npmjs.org/hexo-util/-/hexo-util-0.6.0.tgz&quot;},&quot;maintainers&quot;:[{&quot;name&quot;:&quot;tommy351&quot;,&quot;email&quot;:&quot;tommy351@gmail.com&quot;}],&quot;_npmOperationalInternal&quot;:{&quot;host&quot;:&quot;packages-16-east.internal.npmjs.com&quot;,&quot;tmp&quot;:&quot;tmp/hexo-util-0.6.0.tgz_1465817141295_0.7396468087099493&quot;},&quot;_resolved&quot;:&quot;https://registry.npmjs.org/hexo-util/-/hexo-util-0.6.0.tgz&quot;,&quot;readme&quot;:&quot;ERROR" target="_blank" rel="external">http://zespia.tw&quot;},&quot;license&quot;:&quot;MIT&quot;,&quot;devDependencies&quot;:{&quot;chai&quot;:&quot;^3.5.0&quot;,&quot;eslint&quot;:&quot;^2.12.0&quot;,&quot;eslint-config-hexo&quot;:&quot;^1.0.3&quot;,&quot;istanbul&quot;:&quot;^0.4.3&quot;,&quot;jscs&quot;:&quot;^3.0.4&quot;,&quot;jscs-preset-hexo&quot;:&quot;^1.0.1&quot;,&quot;mocha&quot;:&quot;^2.5.3&quot;,&quot;rewire&quot;:&quot;^2.5.1&quot;},&quot;dependencies&quot;:{&quot;bluebird&quot;:&quot;^3.4.0&quot;,&quot;camel-case&quot;:&quot;^3.0.0&quot;,&quot;cross-spawn&quot;:&quot;^4.0.0&quot;,&quot;highlight.js&quot;:&quot;^9.4.0&quot;,&quot;html-entities&quot;:&quot;^1.2.0&quot;,&quot;striptags&quot;:&quot;^2.1.1&quot;},&quot;gitHead&quot;:&quot;e18c4bd2f94f1233ccfa408915abce74daa2a34a&quot;,&quot;bugs&quot;:{&quot;url&quot;:&quot;https://github.com/hexojs/hexo-util/issues&quot;},&quot;_id&quot;:&quot;hexo-util@0.6.0&quot;,&quot;_shasum&quot;:&quot;b5719cc2d44d9d45522dddcf96143919824b7803&quot;,&quot;_from&quot;:&quot;hexo-util@latest&quot;,&quot;_npmVersion&quot;:&quot;3.7.1&quot;,&quot;_nodeVersion&quot;:&quot;4.3.0&quot;,&quot;_npmUser&quot;:{&quot;name&quot;:&quot;tommy351&quot;,&quot;email&quot;:&quot;tommy351@gmail.com&quot;},&quot;dist&quot;:{&quot;shasum&quot;:&quot;b5719cc2d44d9d45522dddcf96143919824b7803&quot;,&quot;tarball&quot;:&quot;https://registry.npmjs.org/hexo-util/-/hexo-util-0.6.0.tgz&quot;},&quot;maintainers&quot;:[{&quot;name&quot;:&quot;tommy351&quot;,&quot;email&quot;:&quot;tommy351@gmail.com&quot;}],&quot;_npmOperationalInternal&quot;:{&quot;host&quot;:&quot;packages-16-east.internal.npmjs.com&quot;,&quot;tmp&quot;:&quot;tmp/hexo-util-0.6.0.tgz_1465817141295_0.7396468087099493&quot;},&quot;_resolved&quot;:&quot;https://registry.npmjs.org/hexo-util/-/hexo-util-0.6.0.tgz&quot;,&quot;readme&quot;:&quot;ERROR</a>: No README data found!”}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              </p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
       
       
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2017" class="archive-year">2017</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2017/02/18/CentOS-7-64bit配置LAMP/" class="archive-article-date">
-  	<time datetime="2017-02-18T04:58:55.569Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-02-18</time>
-</a>
-        </div>
-    	 
-        <div class="article-info info-on-right">
-          
-          
+      
 
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="http://s.jiathis.com/qrcode.php?url=http://9ajiang.cn/2017/02/18/CentOS-7-64bit配置LAMP/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2017/02/18/2017年一月新番/" class="archive-article-date">
-  	<time datetime="2017-02-18T04:58:55.567Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-02-18</time>
-</a>
-        </div>
-    	 
-        <div class="article-info info-on-right">
-          
-          
 
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2017/02/18/Python学习笔记/" class="archive-article-date">
-  	<time datetime="2017-02-18T04:58:55.561Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-02-18</time>
-</a>
-        </div>
-    	 
-        <div class="article-info info-on-right">
-          
-          
+<nav id="article-nav">
+  
+  
+    <a href="/2017/02/18/2017年一月新番/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title"></div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
 
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
+
+
+
+
+
   
-  
-    </div></section>
+  <div class="duoshuo">
+	<!-- 多说评论框 start -->
+	<div class="ds-thread" data-thread-key="CentOS-7-64bit配置LAMP" data-title="" data-url="http://9ajiang.cn/2017/02/18/CentOS-7-64bit配置LAMP/"></div>
+<!-- 多说评论框 end -->
+<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"9ajiang"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+<!-- 多说公共JS代码 end -->
+</div>
+
   
 
-    
-    <nav id="page-nav">
-      <span class="page-number current">1</span><a class="page-number" href="/archives/page/2/">2</a><a class="extend next" rel="next" href="/archives/page/2/">Next &raquo;</a>
-    </nav>
-  
+
 
 
           </div>
@@ -251,8 +286,8 @@ var _hmt = _hmt || [];
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
-		isArchive: true,
+		isPost: true,
+		isArchive: false,
 		isTag: false,
 		isCategory: false,
 		open_in_new: false,
