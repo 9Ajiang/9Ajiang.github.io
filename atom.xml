@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://9ajiang.cn/"/>
-  <updated>2017-03-04T05:53:27.837Z</updated>
+  <updated>2017-04-01T09:03:42.585Z</updated>
   <id>http://9ajiang.cn/</id>
   
   <author>
@@ -14,6 +14,71 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>数控技术词汇</title>
+    <link href="http://9ajiang.cn/2017/04/01/%E6%95%B0%E6%8E%A7%E6%8A%80%E6%9C%AF%E8%AF%8D%E6%B1%87/"/>
+    <id>http://9ajiang.cn/2017/04/01/数控技术词汇/</id>
+    <published>2017-04-01T09:01:42.000Z</published>
+    <updated>2017-04-01T09:03:42.585Z</updated>
+    
+    <content type="html"><![CDATA[<ul>
+<li><strong>spindle drive</strong>: 主轴驱动</li>
+<li><strong>feed drive</strong>: 进给驱动</li>
+<li><strong>cutter compensation</strong>: 刀具补偿</li>
+<li><strong>interpolation</strong>: 插补 </li>
+<li><strong>tachometer</strong>: 转速计</li>
+<li><strong>screw</strong> : 丝杠</li>
+<li><strong>pulse equivalent</strong>: 脉冲当量</li>
+<li><strong>Machining Center</strong>: 加工中心</li>
+<li><strong>CNC Lathe/Turning Machine</strong>: 数控车床</li>
+<li><strong>CNC Milling Machine</strong>: 数控铣床</li>
+</ul>
+<hr>
+<ul>
+<li><strong>CNC Boring Machine</strong>: 数控镗床</li>
+<li><strong>CNC Punching Machine</strong>: 数控冲床</li>
+<li><strong>5-axis Tool Grinder</strong>: 五轴工具磨床</li>
+<li><strong>Wire Cutting Machine</strong>: 线切割机床</li>
+<li><strong>clamping means/fixtures</strong>: 夹具</li>
+<li><strong>trajectory</strong>: 轨迹</li>
+<li><strong>Machine Orign</strong>: 机床原点</li>
+<li><strong>Workpiece Zero/Orign</strong>: 工件原点</li>
+<li><strong>Least input increment/Pulse equivalent</strong>: 最小设定单位</li>
+<li><strong>Prepartory Functions G Codes</strong>: 准备功能G代码</li>
+</ul>
+<hr>
+<ul>
+<li><strong>modal code</strong>: 模态代码（续效代码）</li>
+<li><strong>nonmodal code</strong>: 非模态代码</li>
+<li><strong>Miscellaneous Functions M Codes</strong>: 辅助功能M代码</li>
+<li><strong>coolant</strong> : 切削液</li>
+<li><strong>Climb Milling</strong>: 顺铣</li>
+<li><strong>Conventional Milling</strong>: 逆铣</li>
+<li><strong>Cutter Point</strong>: 对刀点</li>
+<li><strong>Tool Changing Point</strong>: 换刀点</li>
+<li><strong>set tool</strong>: 对刀</li>
+<li><strong>cutter location point</strong>: 刀位点</li>
+</ul>
+<hr>
+<ul>
+<li><strong>indexable cutter</strong>: 可转位刀具</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;spindle drive&lt;/strong&gt;: 主轴驱动&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;feed drive&lt;/strong&gt;: 进给驱动&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;cutter compensation&lt;/strong&gt;: 刀具补偿
+    
+    </summary>
+    
+    
+      <category term="笔记" scheme="http://9ajiang.cn/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>《Shelter》--I&#39;ll give them shelter like you&#39;ve done for me</title>
