@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://9ajiang.cn/"/>
-  <updated>2017-04-01T14:36:09.443Z</updated>
+  <updated>2017-04-07T10:28:40.101Z</updated>
   <id>http://9ajiang.cn/</id>
   
   <author>
@@ -14,6 +14,38 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>博客大事记</title>
+    <link href="http://9ajiang.cn/2017/04/07/%E5%8D%9A%E5%AE%A2%E5%A4%A7%E4%BA%8B%E8%AE%B0/"/>
+    <id>http://9ajiang.cn/2017/04/07/博客大事记/</id>
+    <published>2017-04-07T10:27:43.000Z</published>
+    <updated>2017-04-07T10:28:40.101Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="—2017-4-7—"><a href="#—2017-4-7—" class="headerlink" title="—2017.4.7—"></a>—2017.4.7—</h1><blockquote>
+<p>由于多说即将关闭，故将评论系统更换为网易云跟帖。</p>
+</blockquote>
+<a id="more"></a>
+<h1 id="—2017-3-3—"><a href="#—2017-3-3—" class="headerlink" title="—2017.3.3—"></a>—2017.3.3—</h1><blockquote>
+<p>把博客的图片传至<a href="http://yotuku.cn" target="_blank" rel="external">极简图床</a>，应该对加快访问速度有所帮助。同时为了防止图床翻车，图片在博客根目录都存有备份。</p>
+</blockquote>
+<h1 id="—2017-2-18—"><a href="#—2017-2-18—" class="headerlink" title="—2017.2.18—"></a>—2017.2.18—</h1><blockquote>
+<p>手贱删了一点博客内的文件导致无法generate，技术有限只好把整个博客根目录搬迁重新搭建，删了一些划水的文章。反正没多少人看，自己开心就好23333</p>
+</blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;—2017-4-7—&quot;&gt;&lt;a href=&quot;#—2017-4-7—&quot; class=&quot;headerlink&quot; title=&quot;—2017.4.7—&quot;&gt;&lt;/a&gt;—2017.4.7—&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;由于多说即将关闭，故将评论系统更换为网易云跟帖。&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+    
+      <category term="测试" scheme="http://9ajiang.cn/tags/%E6%B5%8B%E8%AF%95/"/>
+    
+  </entry>
   
   <entry>
     <title>数控技术词汇</title>
@@ -154,35 +186,6 @@
     
     
       <category term="动漫" scheme="http://9ajiang.cn/tags/%E5%8A%A8%E6%BC%AB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>博客大事记</title>
-    <link href="http://9ajiang.cn/2017/03/03/%E5%8D%9A%E5%AE%A2%E5%A4%A7%E4%BA%8B%E8%AE%B0/"/>
-    <id>http://9ajiang.cn/2017/03/03/博客大事记/</id>
-    <published>2017-03-03T14:21:43.000Z</published>
-    <updated>2017-03-04T04:10:34.333Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="—2017-3-3—"><a href="#—2017-3-3—" class="headerlink" title="—2017.3.3—"></a>—2017.3.3—</h1><blockquote>
-<p>把博客的图片传至<a href="http://yotuku.cn" target="_blank" rel="external">极简图床</a>，应该对加快访问速度有所帮助。同时为了防止图床翻车，图片在博客根目录都存有备份。</p>
-</blockquote>
-<a id="more"></a>
-<h1 id="—2017-2-18—"><a href="#—2017-2-18—" class="headerlink" title="—2017.2.18—"></a>—2017.2.18—</h1><blockquote>
-<p>手贱删了一点博客内的文件导致无法generate，技术有限只好把整个博客根目录搬迁重新搭建，删了一些划水的文章。反正没多少人看，自己开心就好23333</p>
-</blockquote>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;—2017-3-3—&quot;&gt;&lt;a href=&quot;#—2017-3-3—&quot; class=&quot;headerlink&quot; title=&quot;—2017.3.3—&quot;&gt;&lt;/a&gt;—2017.3.3—&lt;/h1&gt;&lt;blockquote&gt;
-&lt;p&gt;把博客的图片传至&lt;a href=&quot;http://yotuku.cn&quot;&gt;极简图床&lt;/a&gt;，应该对加快访问速度有所帮助。同时为了防止图床翻车，图片在博客根目录都存有备份。&lt;/p&gt;
-&lt;/blockquote&gt;
-    
-    </summary>
-    
-    
-      <category term="测试" scheme="http://9ajiang.cn/tags/%E6%B5%8B%E8%AF%95/"/>
     
   </entry>
   
