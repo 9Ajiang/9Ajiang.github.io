@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://9ajiang.cn/"/>
-  <updated>2017-04-07T10:28:40.101Z</updated>
+  <updated>2017-04-27T05:35:55.734Z</updated>
   <id>http://9ajiang.cn/</id>
   
   <author>
@@ -17,17 +17,20 @@
   
   <entry>
     <title>博客大事记</title>
-    <link href="http://9ajiang.cn/2017/04/07/%E5%8D%9A%E5%AE%A2%E5%A4%A7%E4%BA%8B%E8%AE%B0/"/>
-    <id>http://9ajiang.cn/2017/04/07/博客大事记/</id>
-    <published>2017-04-07T10:27:43.000Z</published>
-    <updated>2017-04-07T10:28:40.101Z</updated>
+    <link href="http://9ajiang.cn/2017/04/27/%E5%8D%9A%E5%AE%A2%E5%A4%A7%E4%BA%8B%E8%AE%B0/"/>
+    <id>http://9ajiang.cn/2017/04/27/博客大事记/</id>
+    <published>2017-04-27T05:01:43.000Z</published>
+    <updated>2017-04-27T05:35:55.734Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="—2017-4-7—"><a href="#—2017-4-7—" class="headerlink" title="—2017.4.7—"></a>—2017.4.7—</h1><blockquote>
-<p>由于多说即将关闭，故将评论系统更换为网易云跟帖。</p>
+    <content type="html"><![CDATA[<h1 id="—2017-4-27—"><a href="#—2017-4-27—" class="headerlink" title="—2017.4.27—"></a>—2017.4.27—</h1><blockquote>
+<p>将网易云跟帖替换成多说。</p>
 </blockquote>
 <a id="more"></a>
+<h1 id="—2017-4-7—"><a href="#—2017-4-7—" class="headerlink" title="—2017.4.7—"></a>—2017.4.7—</h1><blockquote>
+<p>由于多说即将关闭，故将评论系统更换为网易云跟帖。</p>
+</blockquote>
 <h1 id="—2017-3-3—"><a href="#—2017-3-3—" class="headerlink" title="—2017.3.3—"></a>—2017.3.3—</h1><blockquote>
-<p>把博客的图片传至<a href="http://yotuku.cn" target="_blank" rel="external">极简图床</a>，应该对加快访问速度有所帮助。同时为了防止图床翻车，图片在博客根目录都存有备份。</p>
+<p>把博客的图片传至<a href="http://yotuku.cn" target="_blank" rel="external">极简图床</a>，应该对加快访问速度有所帮助。</p>
 </blockquote>
 <h1 id="—2017-2-18—"><a href="#—2017-2-18—" class="headerlink" title="—2017.2.18—"></a>—2017.2.18—</h1><blockquote>
 <p>手贱删了一点博客内的文件导致无法generate，技术有限只好把整个博客根目录搬迁重新搭建，删了一些划水的文章。反正没多少人看，自己开心就好23333</p>
@@ -36,8 +39,8 @@
     
     <summary type="html">
     
-      &lt;h1 id=&quot;—2017-4-7—&quot;&gt;&lt;a href=&quot;#—2017-4-7—&quot; class=&quot;headerlink&quot; title=&quot;—2017.4.7—&quot;&gt;&lt;/a&gt;—2017.4.7—&lt;/h1&gt;&lt;blockquote&gt;
-&lt;p&gt;由于多说即将关闭，故将评论系统更换为网易云跟帖。&lt;/p&gt;
+      &lt;h1 id=&quot;—2017-4-27—&quot;&gt;&lt;a href=&quot;#—2017-4-27—&quot; class=&quot;headerlink&quot; title=&quot;—2017.4.27—&quot;&gt;&lt;/a&gt;—2017.4.27—&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;将网易云跟帖替换成多说。&lt;/p&gt;
 &lt;/blockquote&gt;
     
     </summary>
