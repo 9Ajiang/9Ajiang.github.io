@@ -21,7 +21,7 @@
 <!-- 代码部分begin -->
 <div class="wrap" id="wrap">
     <ul class="tabClick">
-        <li>周一</li>
+        <li  class="active">周一</li>
         <li>周二</li>
         <li>周三</li>
         <li>周四</li>
