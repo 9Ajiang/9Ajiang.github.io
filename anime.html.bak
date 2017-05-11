@@ -12,7 +12,7 @@
 	}
     *{ margin: 0; padding: 0}
     ul,li{ list-style: none}
-    .tabClick{ background: #f3f3f3; overflow: hidden;opacity: 0.4;}
+    .tabClick{ background: #f3f3f3; overflow: hidden;opacity: 0.5;}
     .tabClick li{ height:60px; line-height: 60px; width: 14.28%; float: left; text-align: center}
     .tabClick li.active{ color: #099; transition: 0.1s; font-weight: bold}
     .tabCon{ overflow: hidden}
@@ -22,9 +22,6 @@
     .lineDiv{ background: #099; height: 5px; width: 14.28%;}
 	.buttom{width:100%;position: fixed; bottom: 0px;}
 	.buttom div{text-align:center;}
-
-	.whole{width:100%;height:100%;line-height:100%;position:fixed;bottom:0;left:0;z-index:-1000;overflow:hidden;}
-	.mask{width:100%;height:100%;position:absolute;top:0;left:0;background:#000;opacity:0.6;filter:alpha(opacity=60);}
 
 	.transparent.header{background:#333;}
 	section[role="main"]{color:#fff;}
