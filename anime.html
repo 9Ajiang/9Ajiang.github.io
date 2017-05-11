@@ -5,16 +5,81 @@
 <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
 <title>番表</title>
 <style>
+	body{
+	margin:0px;
+	padding:0px;
+	background-color:#CF3F42;
+	background-image:url(http://om8k74ojm.bkt.clouddn.com/17-3-3/40544064-file_1488550135748_fd49.png);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:100%100%;
+	background-size:420px;
+	}
     *{ margin: 0; padding: 0}
     ul,li{ list-style: none}
-    .tabClick{ background: #f3f3f3; overflow: hidden}
+    .tabClick{ background: #f3f3f3; overflow: hidden;opacity: 0.7;}
     .tabClick li{ height:60px; line-height: 60px; width: 14.28%; float: left; text-align: center}
     .tabClick li.active{ color: #099; transition: 0.1s; font-weight: bold}
     .tabCon{ overflow: hidden}
     .tabBox{ position: relative}
-    .tabList{word-break: break-all; width:100%;float:left; line-height:100px; text-align:center; color:#D3D3D3; font-size:30px; font-family: "Arial Black"}
-    .lineBorder{ height: 2px; overflow: hidden; border-bottom:1px solid #099; background: #f3f3f3}
-    .lineDiv{ background: #099; height: 3px; width: 14.28%;}
+    .tabList{word-break: break-all; width:100%;float:left; line-height:60px; text-align:center; color:#D3D3D3; font-size:25px; font-family: "Arial Black"}
+    .lineBorder{ height: 5px; overflow: hidden; background: #f3f3f3 opacity: 0.5;}
+    .lineDiv{ background: #099; height: 5px; width: 14.28%;}
+	.buttom{width:100%;position: fixed; bottom: 0px;}
+	.buttom div{text-align:center;}
+
+	.mask{width:100%;height:100%;position:absolute;top:0;left:0;background:#000;opacity:0.4;filter:alpha(opacity=40); z-index:-999}
+
+	.transparent.header{background:#333;}
+	section[role="main"]{color:#fff;}
+	section[role="main"] h1{color:#fff;}
+	section[role="main"] h2{color:#fff;}
+	section[role="main"]h3{color:#fff;}
+	.button{margin-right:0.5em;border-radius:4px;}
+	ol{margin-left:2em;}
+	div#sidebarAd.cleanslate{background:#444!important;color:#fff!important;}
+	div#sidebarAd.cleanslate .ad-sponsor{color:#ccc!important;}
+	.zurb-footer-top{background:#222;}@-webkit-keyframes bigAssButtonPulse {
+		from { background-color: #749a02; -webkit-box-shadow: 0 0 25px #333; } 50% { background-color: #91bd09; -webkit-box-shadow: 0 0 50px #91bd09; }
+		to { background-color: #749a02; -webkit-box-shadow: 0 0 25px #333; }
+	}
+
+	@-webkit-keyframes redPulse {
+	  from { background-color: #bc330d; -webkit-box-shadow: 0 0 9px #333; }
+	  50% { background-color: #e33100; -webkit-box-shadow: 0 0 18px #e33100; }
+	  to { background-color: #bc330d; -webkit-box-shadow: 0 0 9px #333; }
+	}
+
+	a.button {
+		-webkit-animation-duration: 2s;
+		-webkit-animation-iteration-count: infinite; 
+	}
+	
+	.red.button { -webkit-animation-name: redPulse; -webkit-animation-duration: 1s; }
+	
+	.wall-of-buttons { text-align: center; margin-top: 2em; margin-bottom: 2em; }
+	button,.button {
+	    border-style: solid;
+	    border-width: 0;
+	    cursor: pointer;
+	    font-family: inherit;
+	    font-weight: bold;
+	    line-height: normal;
+	    margin: 0 0 1.25em;
+	    position: relative;
+	    text-decoration: none;
+	    text-align: center;
+	    display: inline-block;
+	    padding-top: 0.75em;
+	    padding-right: 1.5em;
+	    padding-bottom: 0.8125em;
+	    padding-left: 1.5em;
+	    font-size: 1em;
+	    background-color: #2daebf;
+	    border-color: #238896;
+	    color: white
+	}
+
 </style>
 <body>
 
@@ -42,11 +107,11 @@
 				<br>
             </div>
             <div class="tabList">
-				末日时在做什么？有没有空？可以来拯救吗？
+				末日时有没有空？可以来拯救吗？
             </div>
             <div class="tabList">
 				樱花任务<br>
-				重启校良田
+				重启咲良田
 			</div>
             <div class="tabList">
 				不起眼女主育成法b
@@ -63,6 +128,22 @@
         </div>
     </div>
 </div>
+
+<div class="mask"></div>
+
+<div class="buttom">
+	<div>
+		<section role="main" class="body">
+		<div class="row">
+				<a class="red button" href="http://9ajiang.cn">返回博客首页</a>
+		</div>
+		</section>
+	</div>
+	<div>
+		<span style="font-family:arial; color:#fff"> &copy; &nbsp;2017&nbsp;9A</span> 
+	</div>
+</div>
+
 <script charset="utf-8">
 	window.onload = function (){
         var windowWidth = document.body.clientWidth; //window 宽度;
