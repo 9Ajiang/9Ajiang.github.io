@@ -100,20 +100,24 @@
 				僧侣之夜
             </div>
             <div class="tabList">
-				<br>
+				从零开始的魔法书
             </div>
             <div class="tabList">
-				末日时有没有空？可以来拯救吗？
+				王教师海涅<br>
+				末日时在做什么？有没有空？可以来拯救吗？
             </div>
             <div class="tabList">
 				樱花任务<br>
 				重启咲良田
 			</div>
             <div class="tabList">
-				不起眼女主育成法b
+				不起眼女主育成法b<br>
+				时钟机关之星<br>
+				雏子笔记
             </div>
             <div class="tabList">
-				巴哈姆特之怒VIRGIN SOUL
+				巴哈姆特之怒VIRGIN SOUL<br>
+				剑风传奇2
             </div>
             <div class="tabList">
 				阿童木起源<br>
@@ -164,29 +168,30 @@
 		var today=day.getDay()-1;
 		
 		switch(today)
-		{
-		case 0:
-		  document.bgColor = "rgb(255,0,0 )";
-		  break;
-		case 1:
-		  document.bgColor= "rgb(255,128,0 )";
-		  break;
-		case 2:
-		  document.bgColor= "rgb(255,255,0)";
-		  break;
-		case 3:
-		  document.bgColor= "rgb(0,255,0 )";
-		  break;
-		case 4:
-		  document.bgColor= "rgb(0,255,255 )";
-		  break;
-		case 5:
-		  document.bgColor= "rgb(0,0,255)";
-		  break;
-		case 6:
-		  document.bgColor= "rgb(128,0,255)";
-		  break;
-		};
+			{
+			case 0:
+			  document.bgColor = "#F24F50";
+			  break;
+			case 1:
+			  document.bgColor= "#FB962A";
+			  break;
+			case 2:
+			  document.bgColor= "#FFE153";
+			  break;
+			case 3:
+			  document.bgColor= "#63A12D";
+			  break;
+			case 4:
+			  document.bgColor= "#40C8D8";
+			  break;
+			case 5:
+			  document.bgColor= "#01A419";
+			  break;
+			case 6:
+			  document.bgColor= "#9773B1";
+			  break;
+			};
+			
 		
 		tabLi[today].className='active';
         init.lineAnme(lineDiv,windowWidth/tabLi.length*today)
@@ -216,27 +221,28 @@
 				switch(star)
 				{
 				case 0:
-				  document.bgColor = "rgb(255,0,0 )";
+				  document.bgColor = "#F24F50";
 				  break;
 				case 1:
-				  document.bgColor= "rgb(255,128,0 )";
+				  document.bgColor= "#FB962A";
 				  break;
 				case 2:
-				  document.bgColor= "rgb(255,255,0)";
+				  document.bgColor= "#FFE153";
 				  break;
 				case 3:
-				  document.bgColor= "rgb(0,255,0 )";
+				  document.bgColor= "#63A12D";
 				  break;
 				case 4:
-				  document.bgColor= "rgb(0,255,255)";
+				  document.bgColor= "#40C8D8";
 				  break;
 				case 5:
-				  document.bgColor= "rgb(0,0,255)";
+				  document.bgColor= "#01A419";
 				  break;
 				case 6:
-				  document.bgColor= "rgb(128,0,255)";
+				  document.bgColor= "#9773B1";
 				  break;
 				};
+			
                 tabLi[star].className='active';
                 init.lineAnme(lineDiv,windowWidth/tabLi.length*star)
                 init.translate(tabBox,windowWidth,star);
@@ -257,25 +263,25 @@
 			switch(star)
 			{
 			case 0:
-			  document.bgColor = "rgb(255,0,0)";
+			  document.bgColor = "#F24F50";
 			  break;
 			case 1:
-			  document.bgColor= "rgb(255,128,0)";
+			  document.bgColor= "#FB962A";
 			  break;
 			case 2:
-			  document.bgColor= "rgb(255,255,0)";
+			  document.bgColor= "#FFE153";
 			  break;
 			case 3:
-			  document.bgColor= "rgb(0,255,0)";
+			  document.bgColor= "#63A12D";
 			  break;
 			case 4:
-			  document.bgColor= "rgb(0,255,255)";
+			  document.bgColor= "#40C8D8";
 			  break;
 			case 5:
-			  document.bgColor= "rgb(0,0,255)";
+			  document.bgColor= "#01A419";
 			  break;
 			case 6:
-			  document.bgColor= "rgb(128,0,255)";
+			  document.bgColor= "#9773B1";
 			  break;
 			};
 			
