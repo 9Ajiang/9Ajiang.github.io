@@ -24,7 +24,7 @@
 
 
 	.whole{width:100%;height:100%;line-height:100%;position:fixed;bottom:0;left:0;z-index:-1000;overflow:hidden;}
-	.mask{width:100%;height:100%;position:absolute;top:0;left:0;background:#000;opacity:0.6;filter:alpha(opacity=60);}
+	.mask{width:100%;height:100%;position:absolute;top:0;left:0;background:#000;opacity:0;filter:alpha(opacity=40);}
 
 	.transparent.header{background:#333;}
 	section[role="main"]{color:#fff;}
@@ -166,25 +166,25 @@
 		switch(today)
 		{
 		case 0:
-		  document.bgColor = "#5F9EA0";
+		  document.bgColor = "rgb(255,0,0 )";
 		  break;
 		case 1:
-		  document.bgColor= "#1E90FF";
+		  document.bgColor= "rgb(255,128,0 )";
 		  break;
 		case 2:
-		  document.bgColor= "#DCDCDC";
+		  document.bgColor= "rgb(255,255,0)";
 		  break;
 		case 3:
-		  document.bgColor= "#F0FFF0";
+		  document.bgColor= "rgb(0,255,0 )";
 		  break;
 		case 4:
-		  document.bgColor= "#90EE90";
+		  document.bgColor= "rgb(0,255,255 )";
 		  break;
 		case 5:
-		  document.bgColor= "#FF7F50";
+		  document.bgColor= "rgb(0,0,255) ";
 		  break;
 		case 6:
-		  document.bgColor= "#FFB6C1";
+		  document.bgColor= "rgb(128,0,255)";
 		  break;
 		};
 		
@@ -213,6 +213,30 @@
                 for(var i = 0 ;i<tabLi.length; i++ ){
                     tabLi[i].className='';
                 };
+				switch(star)
+				{
+				case 0:
+				  document.bgColor = "rgb(255,0,0 )";
+				  break;
+				case 1:
+				  document.bgColor= "rgb(255,128,0 )";
+				  break;
+				case 2:
+				  document.bgColor= "rgb(255,255,0)";
+				  break;
+				case 3:
+				  document.bgColor= "rgb(0,255,0 )";
+				  break;
+				case 4:
+				  document.bgColor= "rgb(0,255,255 )";
+				  break;
+				case 5:
+				  document.bgColor= "rgb(0,0,255) ";
+				  break;
+				case 6:
+				  document.bgColor= "rgb(128,0,255)";
+				  break;
+				};
                 tabLi[star].className='active';
                 init.lineAnme(lineDiv,windowWidth/tabLi.length*star)
                 init.translate(tabBox,windowWidth,star);
@@ -230,31 +254,31 @@
                 tabLi[i].className='';
             };
             
-		switch(star)
-		{
-		case 0:
-		  document.getElementById("mask").style.backgroundColor = "#5F9EA0";
-		  break;
-		case 1:
-		  document.getElementById("mask").style.backgroundColor= "#1E90FF";
-		  break;
-		case 2:
-		  document.getElementById("mask").style.backgroundColor= "#DCDCDC";
-		  break;
-		case 3:
-		  document.getElementById("mask").style.backgroundColor= "#F0FFF0";
-		  break;
-		case 4:
-		  document.getElementById("mask").style.backgroundColor= "#90EE90";
-		  break;
-		case 5:
-		  document.getElementById("mask").style.backgroundColor= "#FF7F50";
-		  break;
-		case 6:
-		  document.getElementById("mask").style.backgroundColor= "#FFB6C1";
-		  break;
-		};
-		
+			switch(star)
+			{
+			case 0:
+			  document.bgColor = "rgb(255,0,0 )";
+			  break;
+			case 1:
+			  document.bgColor= "rgb(255,128,0 )";
+			  break;
+			case 2:
+			  document.bgColor= "rgb(255,255,0)";
+			  break;
+			case 3:
+			  document.bgColor= "rgb(0,255,0 )";
+			  break;
+			case 4:
+			  document.bgColor= "rgb(0,255,255 )";
+			  break;
+			case 5:
+			  document.bgColor= "rgb(0,0,255) ";
+			  break;
+			case 6:
+			  document.bgColor= "rgb(128,0,255)";
+			  break;
+			};
+			
         tabLi[star].className='active';
         init.translate(tabBox,windowWidth,star);
         endX= -star*windowWidth;
