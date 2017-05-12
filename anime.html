@@ -8,7 +8,6 @@
 	body{
 	margin:0px;
 	padding:0px;
-	background-color:#CF3F42;
 	}
     *{ margin: 0; padding: 0}
     ul,li{ list-style: none}
@@ -22,6 +21,11 @@
     .lineDiv{ background: #099; height: 5px; width: 14.28%;}
 	.buttom{width:100%;position: fixed; bottom: 0px;}
 	.buttom div{text-align:center;}
+
+
+	.whole{width:100%;height:100%;line-height:100%;position:fixed;bottom:0;left:0;z-index:-1000;overflow:hidden;}
+
+	#mask{width:100%;height:100%;position:absolute;top:0;left:0;background:#000;opacity:0.6;filter:alpha(opacity=60);}
 
 	.transparent.header{background:#333;}
 	section[role="main"]{color:#fff;}
@@ -122,6 +126,11 @@
     </div>
 </div>
 
+<div class="whole">
+	<!-- <img src="http://om8k74ojm.bkt.clouddn.com/17-3-3/40544064-file_1488550135748_fd49.png"> -->
+    <div id="mask"></div>
+</div>
+
 <div class="buttom">
 	<div>
 		<section role="main" class="body">
@@ -158,7 +167,7 @@
 		tabLi[today].className='active';
         init.lineAnme(lineDiv,windowWidth/tabLi.length*today)
         init.translate(tabBox,windowWidth,today);
-
+		
         tabBox.style.overflow='hidden';
         tabBox.style.position='relative';
         tabBox.style.width=windowWidth*tabList.length+"px";
@@ -197,9 +206,34 @@
                 tabLi[i].className='';
             };
             
-             tabLi[star].className='active';
-            init.translate(tabBox,windowWidth,star);
-            endX= -star*windowWidth;
+		switch(star)
+		{
+		case 0:
+		  document.getElementById("mask").style.backgroundColor = "#5F9EA0";
+		  break;
+		case 1:
+		  document.getElementById("mask").style.backgroundColor= "#1E90FF";
+		  break;
+		case 2:
+		  document.getElementById("mask").style.backgroundColor= "#DCDCDC";
+		  break;
+		case 3:
+		  document.getElementById("mask").style.backgroundColor= "#F0FFF0";
+		  break;
+		case 4:
+		  document.getElementById("mask").style.backgroundColor= "#90EE90";
+		  break;
+		case 5:
+		  document.getElementById("mask").style.backgroundColor= "#FF7F50";
+		  break;
+		case 6:
+		  document.getElementById("mask").style.backgroundColor= "#FFB6C1";
+		  break;
+		};
+		
+        tabLi[star].className='active';
+        init.translate(tabBox,windowWidth,star);
+        endX= -star*windowWidth;
         };
         
         tabBox.addEventListener('touchstart',chstart,false);
