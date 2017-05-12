@@ -163,7 +163,32 @@
         
 		var day=new Date();
 		var today=day.getDay()-1;
-
+		
+		switch(today)
+		{
+		case 0:
+		  document.getElementById("mask").style.backgroundColor = "#5F9EA0";
+		  break;
+		case 1:
+		  document.getElementById("mask").style.backgroundColor= "#1E90FF";
+		  break;
+		case 2:
+		  document.getElementById("mask").style.backgroundColor= "#DCDCDC";
+		  break;
+		case 3:
+		  document.getElementById("mask").style.backgroundColor= "#F0FFF0";
+		  break;
+		case 4:
+		  document.getElementById("mask").style.backgroundColor= "#90EE90";
+		  break;
+		case 5:
+		  document.getElementById("mask").style.backgroundColor= "#FF7F50";
+		  break;
+		case 6:
+		  document.getElementById("mask").style.backgroundColor= "#FFB6C1";
+		  break;
+		};
+		
 		tabLi[today].className='active';
         init.lineAnme(lineDiv,windowWidth/tabLi.length*today)
         init.translate(tabBox,windowWidth,today);
