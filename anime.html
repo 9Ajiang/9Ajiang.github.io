@@ -176,7 +176,8 @@
 		var day=new Date();
 		var today=day.getDay()-1;
 		
-		switch(today)
+		function switch_color(cv){
+		switch(cv)
 			{
 			case 0:
 			  document.bgColor = "#F24F50";
@@ -200,8 +201,9 @@
 			  document.bgColor= "#9773B1";
 			  break;
 			};
-			
-		
+		}
+
+		switch_color(today);
 		tabLi[today].className='active';
         init.lineAnme(lineDiv,windowWidth/tabLi.length*today)
         init.translate(tabBox,windowWidth,today);
@@ -227,31 +229,7 @@
                 for(var i = 0 ;i<tabLi.length; i++ ){
                     tabLi[i].className='';
                 };
-				switch(star)
-				{
-				case 0:
-				  document.bgColor = "#F24F50";
-				  break;
-				case 1:
-				  document.bgColor= "#FB962A";
-				  break;
-				case 2:
-				  document.bgColor= "#FFE153";
-				  break;
-				case 3:
-				  document.bgColor= "#63A12D";
-				  break;
-				case 4:
-				  document.bgColor= "#40C8D8";
-				  break;
-				case 5:
-				  document.bgColor= "#01A419";
-				  break;
-				case 6:
-				  document.bgColor= "#9773B1";
-				  break;
-				};
-			
+				switch_color(star);
                 tabLi[star].className='active';
                 init.lineAnme(lineDiv,windowWidth/tabLi.length*star)
                 init.translate(tabBox,windowWidth,star);
@@ -269,31 +247,7 @@
                 tabLi[i].className='';
             };
             
-			switch(star)
-			{
-			case 0:
-			  document.bgColor = "#F24F50";
-			  break;
-			case 1:
-			  document.bgColor= "#FB962A";
-			  break;
-			case 2:
-			  document.bgColor= "#FFE153";
-			  break;
-			case 3:
-			  document.bgColor= "#63A12D";
-			  break;
-			case 4:
-			  document.bgColor= "#40C8D8";
-			  break;
-			case 5:
-			  document.bgColor= "#01A419";
-			  break;
-			case 6:
-			  document.bgColor= "#9773B1";
-			  break;
-			};
-			
+		switch_color(star);
         tabLi[star].className='active';
         init.translate(tabBox,windowWidth,star);
         endX= -star*windowWidth;
