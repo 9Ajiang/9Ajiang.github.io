@@ -22,7 +22,6 @@
 	.buttom{width:100%;position: fixed; bottom: 0px;}
 	.buttom div{text-align:center;}
 
-
 	.whole{width:100%;height:100%;line-height:100%;position:fixed;bottom:0;left:0;z-index:-1000;overflow:hidden;}
 	.mask{width:100%;height:100%;position:absolute;top:0;left:0;background:#000;opacity:0.2;filter:alpha(opacity=20);}
 
@@ -172,42 +171,66 @@
         var tar = 0;
         var endX = 0;
         var dist = 0;
-        
-		var day=new Date();
-		var today=day.getDay()-1;
-		
-		function switch_color(cv){
+         
+		var today = 6;
 		switch(today)
-			{
+		{
 			case 0:
+				var cha = 6;
+				break;
+			case 1:
+				var cha = 0;
+				break;
+			case 2:
+				var cha = 1;
+				break;
+			case 3:
+				var cha = 2;
+				break;
+			case 4:
+				var cha = 3;
+				break;
+			case 5:
+				var cha = 4;
+				break;
+			case 6:
+				var cha = 5;
+				break;
+			
+		};
+
+		function switch_color(cv){
+		switch(cv)
+			{
+			case 1:
 			  document.bgColor = "#F24F50";
 			  break;
-			case 1:
+			case 2:
 			  document.bgColor= "#FB962A";
 			  break;
-			case 2:
+			case 3:
 			  document.bgColor= "#FFE153";
 			  break;
-			case 3:
+			case 4:
 			  document.bgColor= "#63A12D";
 			  break;
-			case 4:
+			case 5:
 			  document.bgColor= "#40C8D8";
 			  break;
-			case 5:
+			case 6:
 			  document.bgColor= "#01A419";
 			  break;
-			case 6:
+			case 0:
 			  document.bgColor= "#9773B1";
 			  break;
 			};
 		}
 
 		switch_color(today);
-		tabLi[today].className='active';
-        init.lineAnme(lineDiv,windowWidth/tabLi.length*today)
-        init.translate(tabBox,windowWidth,today);
-		
+		tabLi[cha].className='active';
+        init.lineAnme(lineDiv,windowWidth/tabLi.length*cha)
+        init.translate(tabBox,windowWidth,cha);
+
         tabBox.style.overflow='hidden';
         tabBox.style.position='relative';
         tabBox.style.width=windowWidth*tabList.length+"px";
