@@ -177,7 +177,7 @@
 		{
 			case 0:
 				var cha = 6;
-				alert("今天星期六");
+				alert("今天星期日");
 				break;
 			case 1:
 				var cha = 0;
@@ -201,7 +201,7 @@
 				break;
 			case 6:
 				var cha = 5;
-				alert("今天星期日");
+				alert("今天星期六");
 				break;
 			
 		};
