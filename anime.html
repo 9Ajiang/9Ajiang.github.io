@@ -234,9 +234,7 @@
 		}
 
 		switch_color(cha);
-		tabLi[cha].className='active';
-        init.lineAnme(lineDiv,windowWidth/tabLi.length*cha)
-        init.translate(tabBox,windowWidth,cha);
+		OnTab(cha);
 
         tabBox.style.overflow='hidden';
         tabBox.style.position='relative';
