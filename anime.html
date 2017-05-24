@@ -233,8 +233,8 @@
 			};
 		}
 
-		switch_color(cha);
 		OnTab(cha);
+		init.lineAnme(lineDiv,windowWidth/tabLi.length*cha)
 
         tabBox.style.overflow='hidden';
         tabBox.style.position='relative';
@@ -300,7 +300,7 @@
             var distance = touch.pageX-tar;
             dist = distance;
             init.touchs(tabBox,windowWidth,tar,distance,endX);
-            init.lineAnme(lineDiv,-dist/tabLi.length-endX/4);
+            init.lineAnme(lineDiv,-dist/tabLi.length-endX/7);
         };
         //离开
         function chend(ev){
