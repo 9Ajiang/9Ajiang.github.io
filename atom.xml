@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://9ajiang.cn/"/>
-  <updated>2017-06-11T15:46:46.234Z</updated>
+  <updated>2017-06-11T15:51:19.700Z</updated>
   <id>http://9ajiang.cn/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://9ajiang.cn/2017/06/11/%E6%95%B0%E6%8E%A7%E6%8A%80%E6%9C%AF%E5%B8%B8%E7%94%A8%E8%AF%8D%E6%B1%87/"/>
     <id>http://9ajiang.cn/2017/06/11/数控技术常用词汇/</id>
     <published>2017-06-11T09:01:42.000Z</published>
-    <updated>2017-06-11T15:46:46.234Z</updated>
+    <updated>2017-06-11T15:51:19.700Z</updated>
     
     <content type="html"><![CDATA[<ul>
 <li><strong>Numerical Control Technology</strong>: 数控技术</li>
@@ -35,6 +35,7 @@
 <li><strong>Operation panel</strong>: 操作面板</li>
 </ul>
 <hr>
+<a id="more"></a>
 <ul>
 <li><strong>Decoding</strong>: 译码</li>
 <li><strong>Cutter radius compensation</strong>: 刀具半径补偿</li>
@@ -255,7 +256,16 @@
       &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Numerical Control Technology&lt;/strong&gt;: 数控技术&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Numerical Control Machine Tool&lt;/strong&gt;: 数控机床&lt;/li&gt;
-&lt;li&gt;&lt;strong
+&lt;li&gt;&lt;strong&gt;Computer Numerical Control(CNC)&lt;/strong&gt;: 计算机数控&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Computer Numerical Controller (CNC Unit)&lt;/strong&gt;: 数控装置&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Spindle&lt;/strong&gt;: 主轴&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Spindle drive&lt;/strong&gt;: 驱动主轴&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Feed drive&lt;/strong&gt;: 进给驱动&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CNC Programming&lt;/strong&gt;: 数控编程&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Input device&lt;/strong&gt;: 输入装置&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Operation panel&lt;/strong&gt;: 操作面板&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
     
     </summary>
     
