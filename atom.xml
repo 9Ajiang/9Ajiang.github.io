@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://9ajiang.cn/"/>
-  <updated>2017-05-11T05:40:55.314Z</updated>
+  <updated>2017-06-11T15:46:46.234Z</updated>
   <id>http://9ajiang.cn/</id>
   
   <author>
@@ -14,6 +14,255 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>数控技术词汇</title>
+    <link href="http://9ajiang.cn/2017/06/11/%E6%95%B0%E6%8E%A7%E6%8A%80%E6%9C%AF%E5%B8%B8%E7%94%A8%E8%AF%8D%E6%B1%87/"/>
+    <id>http://9ajiang.cn/2017/06/11/数控技术常用词汇/</id>
+    <published>2017-06-11T09:01:42.000Z</published>
+    <updated>2017-06-11T15:46:46.234Z</updated>
+    
+    <content type="html"><![CDATA[<ul>
+<li><strong>Numerical Control Technology</strong>: 数控技术</li>
+<li><strong>Numerical Control Machine Tool</strong>: 数控机床</li>
+<li><strong>Computer Numerical Control(CNC)</strong>: 计算机数控</li>
+<li><strong>Computer Numerical Controller (CNC Unit)</strong>: 数控装置</li>
+<li><strong>Spindle</strong>: 主轴</li>
+<li><strong>Spindle drive</strong>: 驱动主轴</li>
+<li><strong>Feed drive</strong>: 进给驱动</li>
+<li><strong>CNC Programming</strong>: 数控编程</li>
+<li><strong>Input device</strong>: 输入装置</li>
+<li><strong>Operation panel</strong>: 操作面板</li>
+</ul>
+<hr>
+<ul>
+<li><strong>Decoding</strong>: 译码</li>
+<li><strong>Cutter radius compensation</strong>: 刀具半径补偿</li>
+<li><strong>Tool length compensation/offset    刀具长度补偿/偏置</strong>: 刀具长度补偿偏置</li>
+<li><strong>Interpolation</strong>: 插补</li>
+<li><strong>Position Control</strong>: 位置控制</li>
+<li><strong>Machining</strong>: 加工</li>
+<li><strong>Servo motor</strong>: 伺服电机</li>
+<li><strong>Feedback</strong>: 反馈</li>
+<li><strong>Axis</strong>: 轴</li>
+<li><strong>Communication</strong>: 通讯</li>
+</ul>
+<hr>
+<ul>
+<li><strong>HMI (Human–Machine Interaction)</strong>: 人机交互</li>
+<li><strong>DNC(Direct Numerical Control)</strong>: 直接数字控制</li>
+<li><strong>MAP(Manufacture Automation Protocol)</strong>: 制造自动化协议</li>
+<li><strong>Multi-coordinate control</strong>: 多坐标控制</li>
+<li><strong>Manual Data Input (MDI)</strong>: 手动数据输入</li>
+<li><strong>Automatic Tool Changer (ATC)</strong>: 自动换刀装置</li>
+<li><strong>Automatic Workpiece Changer (AWC)</strong>: 自动工件更换装置</li>
+<li><strong>Point-to-point control</strong>: 点位控制</li>
+<li><strong>Straight-line control</strong>: 直线控制</li>
+<li><strong>Contour control</strong>: 轮廓控制</li>
+</ul>
+<hr>
+<ul>
+<li><strong>Open-loop control</strong>: 开环控制</li>
+<li><strong>Closed-loop control</strong>: 闭环控制</li>
+<li><strong>Semi-closed-loop control</strong>: 半闭环控制</li>
+<li><strong>Economic type</strong>: 经济型</li>
+<li><strong>Universal type</strong>: 普及型</li>
+<li><strong>High grade type</strong>: 高档型</li>
+<li><strong>Metal cutting machine tool</strong>: 金属切削机床</li>
+<li><strong>Metal shaping machine tool</strong>: 金属成形机床</li>
+<li><strong>Special processing machine tool</strong>: 特种加工机床</li>
+<li><strong>CNC drilling machine</strong>: 数控钻床</li>
+</ul>
+<hr>
+<ul>
+<li><strong>CNC boring machine</strong>: 数控镗床</li>
+<li><strong>CNC punching machine</strong>: 数控冲床</li>
+<li><strong>CNC measuring machine</strong>: 数控测量机</li>
+<li><strong>CNC lathe</strong>: 数控车床</li>
+<li><strong>CNC milling machine</strong>: 数控铣床</li>
+<li><strong>Machining center</strong>: 加工中心</li>
+<li><strong>Turning center</strong>: 车削中心</li>
+<li><strong>Tool holder</strong>: 刀架</li>
+<li><strong>Table</strong>: 工作台</li>
+<li><strong>AC servo motor</strong>: 交流伺服电机</li>
+</ul>
+<hr>
+<ul>
+<li><strong>DC servo motor</strong>: 直流伺服电机</li>
+<li><strong>Manual Programming</strong>: 手工编程</li>
+<li><strong>Automatic Programming</strong>: 自动编程</li>
+<li><strong>Program Number</strong>: 程序号</li>
+<li><strong>Block</strong>: 程序段</li>
+<li><strong>Block Format</strong>: 程序段格式</li>
+<li><strong>Block sequence number</strong>: 程序段号</li>
+<li><strong>Preparatory function</strong>: 准备功能</li>
+<li><strong>Dimension word</strong>: 尺寸字</li>
+<li><strong>Feed word</strong>: 进给功能字</li>
+</ul>
+<hr>
+<ul>
+<li><strong>Spindle speed word</strong>: 主轴转速字</li>
+<li><strong>Tool function word</strong>: 刀具功能字</li>
+<li><strong>Miscellaneous function</strong>: 辅助功能字</li>
+<li><strong>Linear axis</strong>: 直线轴</li>
+<li><strong>Rotary axis</strong>: 旋转轴</li>
+<li><strong>Feedrate</strong>: 进给速度</li>
+<li><strong>Tool Path</strong>: 刀具轨迹</li>
+<li><strong>Tool storage</strong>: 刀库</li>
+<li><strong>Main Program</strong>: 主程序</li>
+<li><strong>Subroutine</strong>: 子程序</li>
+</ul>
+<hr>
+<ul>
+<li><strong>Positive direction</strong>: 正方向</li>
+<li><strong>Horizontal CNC lathe</strong>: 卧式数控车床</li>
+<li><strong>Vertical milling machine</strong>: 立式铣床</li>
+<li><strong>Vertical knee and column milling machine</strong>: 立式升降台铣床</li>
+<li><strong>Horizontal boring and milling machine</strong>: 卧式镗铣床</li>
+<li><strong>Gantry type milling machine</strong>: 龙门式铣床</li>
+<li><strong>Machine Coordinate System</strong>: 机床坐标系</li>
+<li><strong>Machine origin</strong>: 机床原点</li>
+<li><strong>Workpiece origin/zero    工作坐标系原点（工件零点）</strong>: 工作坐标系原点工件零点</li>
+<li><strong>Machine reference point</strong>: 机床参考点</li>
+</ul>
+<hr>
+<ul>
+<li><strong>Workpiece Coordinate System</strong>: 工件坐标系</li>
+<li><strong>Absolute Coordinate System</strong>: 绝对坐标系</li>
+<li><strong>Incremental Coordinate System</strong>: 增量坐标系</li>
+<li><strong>Least input increment    最小输人增量（最小设定单位）</strong>: 最小输人增量最小设定单位</li>
+<li><strong>Pulse equivalent</strong>: 脉冲当量</li>
+<li><strong>Rapid Positioning Instruction</strong>: 快移定位指令</li>
+<li><strong>Linear Interpolation</strong>: 直线插补</li>
+<li><strong>Circular Interpolation</strong>: 圆弧插补</li>
+<li><strong>Clockwise (CW) Circular Interpolation</strong>: 顺圆插补</li>
+<li><strong>Counter Clockwise (CCW) Circular Interpolation</strong>: 逆圆插补</li>
+</ul>
+<hr>
+<ul>
+<li><strong>Finish machining(Fine machining)</strong>: 精加工</li>
+<li><strong>Turning</strong>: 车削</li>
+<li><strong>Milling</strong>: 铣削</li>
+<li><strong>Starting point</strong>: 起刀点</li>
+<li><strong>Nonmodal code</strong>: 非模态代码</li>
+<li><strong>Modal code</strong>: 模态代码</li>
+<li><strong>Cutter compensation left</strong>: 左刀补</li>
+<li><strong>Cutter compensation right</strong>: 右刀补</li>
+<li><strong>Fixed Cycle Instruction</strong>: 固定循环指令</li>
+<li><strong>Climb Milling</strong>: 顺铣</li>
+</ul>
+<hr>
+<ul>
+<li><strong>Conventional Milling</strong>: 逆铣</li>
+<li><strong>Cutter location point</strong>: 刀位点</li>
+<li><strong>Tool Changing Point</strong>: 换刀点</li>
+<li><strong>Base point</strong>: 基点</li>
+<li><strong>Node</strong>: 节点</li>
+<li><strong>Guide rail (Guideway)</strong>: 导轨</li>
+<li><strong>Ball screw</strong>: 滚珠丝杠</li>
+<li><strong>Manipulator</strong>: 机械手</li>
+<li><strong>Mixed programming</strong>: 混合编程</li>
+<li><strong>Diameter programming</strong>: 直径编程</li>
+</ul>
+<hr>
+<ul>
+<li><strong>Radius programming</strong>: 半径编程</li>
+<li><strong>Machining allowance</strong>: 加工余量</li>
+<li><strong>Post-processing</strong>: 后处理</li>
+<li><strong>Single Microprocessor Architecture</strong>: 单微处理机结构</li>
+<li><strong>Multi-microprocessor Architecture</strong>: 多微处理机结构</li>
+<li><strong>Shared bus architecture</strong>: 共享总线结构</li>
+<li><strong>Shared memory architecture</strong>: 共享存储器结构</li>
+<li><strong>Open CNC System Architecture</strong>: 开放式体系结构</li>
+<li><strong>Control software</strong>: 控制软件</li>
+<li><strong>Management software</strong>: 管理软件</li>
+</ul>
+<hr>
+<ul>
+<li><strong>Real time multi-task</strong>: 实时多任务</li>
+<li><strong>Multi-task parallel processing</strong>: 多任务并行处理</li>
+<li><strong>Multiple real time interrupt</strong>: 多重实时中断</li>
+<li><strong>Resource time-sharing technology</strong>: 资源分时共享</li>
+<li><strong>Resource overlap flow line technique</strong>: 资源重叠的流水线处理技术</li>
+<li><strong>Time overlap</strong>: 时间重叠</li>
+<li><strong>Interrupt</strong>: 中断</li>
+<li><strong>Multiple Interrupt</strong>: 多重中断</li>
+<li><strong>Real-time</strong>: 实时</li>
+<li><strong>Periodic Real-time Task</strong>: 实时周期性任务</li>
+</ul>
+<hr>
+<ul>
+<li><strong>Real Time Operating System(RTOS)</strong>: 实时操作系统</li>
+<li><strong>Pulse Incremental Interpolation</strong>: 脉冲增量插补</li>
+<li><strong>Data Sampling Interpolation</strong>: 数据采样插补</li>
+<li><strong>Point-by-point Comparison Method</strong>: 逐点比较法</li>
+<li><strong>Direct Function Method</strong>: 直接函数法</li>
+<li><strong>Coarse interpolation</strong>: 粗插补</li>
+<li><strong>Fine interpolation</strong>: 精插补</li>
+<li><strong>Acc/Dec Control Before Interpolation</strong>: 前加减速控制</li>
+<li><strong>Acc/Dec Control After Interpolation</strong>: 后加减速控制</li>
+<li><strong>Linear-type Acc/Dec Control</strong>: 直线型加减速控制</li>
+</ul>
+<hr>
+<ul>
+<li><strong>Exponential-type Acc/Dec control</strong>: 指数型加减速控制</li>
+<li><strong>S-shape-type Acc/Dec Control    S</strong>: 曲线加减速控制</li>
+<li><strong>Servo system</strong>: 伺服系统</li>
+<li><strong>Quick response</strong>: 快速响应</li>
+<li><strong>Mean Time Between Failures (MTBF)</strong>: 平均无故障时间</li>
+<li><strong>Drive control Unit</strong>: 驱动控制单元</li>
+<li><strong>Detecting Unit</strong>: 检测单元</li>
+<li><strong>Actuator</strong>: 执行器</li>
+<li><strong>Feed drive system</strong>: 进给驱动系统</li>
+<li><strong>Spindle drive system</strong>: 主轴驱动系统</li>
+</ul>
+<hr>
+<ul>
+<li><strong>Electro-hydraulic servo system</strong>: 电液伺服系统</li>
+<li><strong>Electric servo system</strong>: 电气伺服系统</li>
+<li><strong>DC servo system</strong>: 直流伺服系统</li>
+<li><strong>AC servo system</strong>: 交流伺服系统</li>
+<li><strong>Linear motor servo system</strong>: 直线电机伺服系统</li>
+<li><strong>Stepping motor</strong>: 步进电机</li>
+<li><strong>Step angle</strong>: 步距角</li>
+<li><strong>Backlash compensation</strong>: 反向间隙补偿</li>
+<li><strong>Pitch Error compensation</strong>: 螺距误差补偿</li>
+<li><strong>Circular grating</strong>: 圆光栅</li>
+</ul>
+<hr>
+<ul>
+<li><strong>Linear grating</strong>: 直线光栅</li>
+<li><strong>Pulse encoder</strong>: 脉冲编码器</li>
+<li><strong>Gray code</strong>: 葛莱码</li>
+<li><strong>Resolution</strong>: 分辨率</li>
+<li><strong>Open Loop Gain</strong>: 开环增益</li>
+<li><strong>Following Error</strong>: 跟随误差</li>
+<li><strong>Contour Error</strong>: 轮廓误差</li>
+<li><strong>Five Face Machining Center</strong>: 五面加工中心</li>
+<li><strong>Multi-coordinate Machining Center</strong>: 多坐标加工中心</li>
+<li><strong>Main transmission</strong>: 主传动</li>
+</ul>
+<hr>
+<ul>
+<li><strong>Motorized spindle</strong>: 电主轴</li>
+<li><strong>Driving Gear Pair</strong>: 传动齿轮副</li>
+<li><strong>Screw Nut Pair</strong>: 丝杠螺母副</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Numerical Control Technology&lt;/strong&gt;: 数控技术&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Numerical Control Machine Tool&lt;/strong&gt;: 数控机床&lt;/li&gt;
+&lt;li&gt;&lt;strong
+    
+    </summary>
+    
+    
+      <category term="笔记" scheme="http://9ajiang.cn/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>动画番表上线</title>
@@ -69,80 +318,6 @@
     
     
       <category term="测试" scheme="http://9ajiang.cn/tags/%E6%B5%8B%E8%AF%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>数控技术词汇</title>
-    <link href="http://9ajiang.cn/2017/04/01/%E6%95%B0%E6%8E%A7%E6%8A%80%E6%9C%AF%E5%B8%B8%E7%94%A8%E8%AF%8D%E6%B1%87/"/>
-    <id>http://9ajiang.cn/2017/04/01/数控技术常用词汇/</id>
-    <published>2017-04-01T09:01:42.000Z</published>
-    <updated>2017-04-01T14:36:09.443Z</updated>
-    
-    <content type="html"><![CDATA[<ul>
-<li><strong>spindle drive</strong>: 主轴驱动</li>
-<li><strong>feed drive</strong>: 进给驱动</li>
-<li><strong>cutter compensation</strong>: 刀具补偿</li>
-<li><strong>interpolation</strong>: 插补 </li>
-<li><strong>tachometer</strong>: 转速计</li>
-<li><strong>screw</strong> : 丝杠</li>
-<li><strong>pulse equivalent</strong>: 脉冲当量</li>
-<li><strong>Machining Center</strong>: 加工中心</li>
-<li><strong>CNC Lathe/Turning Machine</strong>: 数控车床</li>
-<li><strong>CNC Milling Machine</strong>: 数控铣床</li>
-</ul>
-<a id="more"></a>
-<hr>
-<ul>
-<li><strong>CNC Boring Machine</strong>: 数控镗床</li>
-<li><strong>CNC Punching Machine</strong>: 数控冲床</li>
-<li><strong>5-axis Tool Grinder</strong>: 五轴工具磨床</li>
-<li><strong>Wire Cutting Machine</strong>: 线切割机床</li>
-<li><strong>clamping means/fixtures</strong>: 夹具</li>
-<li><strong>trajectory</strong>: 轨迹</li>
-<li><strong>Machine Orign</strong>: 机床原点</li>
-<li><strong>Workpiece Zero/Orign</strong>: 工件原点</li>
-<li><strong>Least input increment/Pulse equivalent</strong>: 最小设定单位</li>
-<li><strong>Prepartory Functions G Codes</strong>: 准备功能G代码</li>
-</ul>
-<hr>
-<ul>
-<li><strong>modal code</strong>: 模态代码（续效代码）</li>
-<li><strong>nonmodal code</strong>: 非模态代码</li>
-<li><strong>Miscellaneous Functions M Codes</strong>: 辅助功能M代码</li>
-<li><strong>coolant</strong> : 切削液</li>
-<li><strong>Climb Milling</strong>: 顺铣</li>
-<li><strong>Conventional Milling</strong>: 逆铣</li>
-<li><strong>Cutter Point</strong>: 对刀点</li>
-<li><strong>Tool Changing Point</strong>: 换刀点</li>
-<li><strong>set tool</strong>: 对刀</li>
-<li><strong>cutter location point</strong>: 刀位点</li>
-</ul>
-<hr>
-<ul>
-<li><strong>indexable cutter</strong>: 可转位刀具</li>
-</ul>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;spindle drive&lt;/strong&gt;: 主轴驱动&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;feed drive&lt;/strong&gt;: 进给驱动&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;cutter compensation&lt;/strong&gt;: 刀具补偿&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;interpolation&lt;/strong&gt;: 插补 &lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;tachometer&lt;/strong&gt;: 转速计&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;screw&lt;/strong&gt; : 丝杠&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;pulse equivalent&lt;/strong&gt;: 脉冲当量&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Machining Center&lt;/strong&gt;: 加工中心&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;CNC Lathe/Turning Machine&lt;/strong&gt;: 数控车床&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;CNC Milling Machine&lt;/strong&gt;: 数控铣床&lt;/li&gt;
-&lt;/ul&gt;
-    
-    </summary>
-    
-    
-      <category term="笔记" scheme="http://9ajiang.cn/tags/%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
