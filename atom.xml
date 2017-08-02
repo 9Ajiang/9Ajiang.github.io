@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://9ajiang.cn/"/>
-  <updated>2017-08-02T05:10:30.756Z</updated>
+  <updated>2017-08-02T05:12:42.057Z</updated>
   <id>http://9ajiang.cn/</id>
   
   <author>
@@ -14,6 +14,24 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1</title>
+    <link href="http://9ajiang.cn/2017/08/02/1/"/>
+    <id>http://9ajiang.cn/2017/08/02/1/</id>
+    <published>2017-08-02T05:12:22.000Z</published>
+    <updated>2017-08-02T05:12:42.057Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h1>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;测试&quot;&gt;&lt;a href=&quot;#测试&quot; class=&quot;headerlink&quot; title=&quot;测试&quot;&gt;&lt;/a&gt;测试&lt;/h1&gt;
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>博客大事记</title>
