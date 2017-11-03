@@ -6,18 +6,14 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://9ajiang.cn">
-  <title>教务处自动评教方法 | 9A&#39;s Blog</title>
+  <title>Tag: 教程 | 9A&#39;s Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="由于chrome插件的安装现在必须通过自带商店，所以只能采用脚本管理工具来实现自动评教，这里使用油猴脚本管理工具自动评教的代码如下：">
-<meta property="og:type" content="article">
-<meta property="og:title" content="教务处自动评教方法">
-<meta property="og:url" content="http://9ajiang.cn/2017/08/15/教务处自动评教方法/index.html">
+  <meta property="og:type" content="website">
+<meta property="og:title" content="9A's Blog">
+<meta property="og:url" content="http://9ajiang.cn/tags/教程/index.html">
 <meta property="og:site_name" content="9A's Blog">
-<meta property="og:description" content="由于chrome插件的安装现在必须通过自带商店，所以只能采用脚本管理工具来实现自动评教，这里使用油猴脚本管理工具自动评教的代码如下：">
-<meta property="og:updated_time" content="2017-08-15T10:36:47.351Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="教务处自动评教方法">
-<meta name="twitter:description" content="由于chrome插件的安装现在必须通过自带商店，所以只能采用脚本管理工具来实现自动评教，这里使用油猴脚本管理工具自动评教的代码如下：">
+<meta name="twitter:title" content="9A's Blog">
   
     <link rel="alternative" href="/atom.xml" title="9A&#39;s Blog" type="application/atom+xml">
   
@@ -167,523 +163,64 @@ var _hmt = _hmt || [];
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-教务处自动评教方法" class="article article-type-post " itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
+            
   
-    <h1 class="article-title" itemprop="name">
-      教务处自动评教方法
+  
+    
+    
+      
+      
+      <section class="archives-wrap">
+        <div class="archive-year-wrap">
+          <a href="/archives/2017" class="archive-year">2017</a>
+        </div>
+        <div class="archives">
+    
+    <article class="archive-article archive-type-post">
+  <div class="archive-article-inner">
+    <header class="archive-article-header">
+      	<div class="article-meta">
+	      	<a href="/2017/11/04/Premiere教程列表/" class="archive-article-date">
+  	<time datetime="2017-11-04T14:54:56.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-11-04</time>
+</a>
+        </div>
+    	 
+  
+    <h1 itemprop="name">
+      <a class="archive-article-title" href="/2017/11/04/Premiere教程列表/">premiere教程列表</a>
     </h1>
   
 
-        
-        <a href="/2017/08/15/教务处自动评教方法/" class="archive-article-date">
-  	<time datetime="2017-08-15T10:13:31.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-08-15</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>由于chrome插件的安装现在必须通过自带商店，所以只能采用脚本管理工具来实现自动评教，这里使用<a href="http://tampermonkey.net/" title="油猴" target="_blank" rel="external">油猴</a>脚本管理工具<br>自动评教的代码如下：  </p>
-<a id="more"></a>
-<pre><code>// ==UserScript==
-// @name        武理工教务系统自动批量教学评价
-// @namespace   whuteot
-// @description 武汉理工大学 学分制教务管理信息系统 自动教学评价 全选A 跳过问卷调查
-// @author      Token Team
-// @include     http://202.114.90.180/EOT/*
-// @run-at      document-end
-// @version     2.0
-// @grant       unsafeWindow
-// @grant       GM_addStyle
-// @grant       GM_getValue
-// @grant       GM_setValue
-// @grant       GM_deleteValue
-// @grant       GM_listValues
-// @license     MIT/Expat License
-// ==/UserScript==
-
-(function() {
-
-  if(typeof unsafeWindow != &apos;undefined&apos; &amp;&amp; !window.$ &amp;&amp; unsafeWindow.$) {
-    window.$ = unsafeWindow.$;
-  } else {
-    return exec(wrapper);
-  }
-
-  wrapper();
-
-  function exec(func) {
-    var script = document.createElement(&apos;script&apos;);
-    script.type = &quot;text/javascript&quot;;
-    script.textContent = &apos;(&apos; + func.toString() + &apos;)();&apos;;
-    document.body.appendChild(script);
-  }
-
-  function wrapper() {
-
-    function pjrw(pjrwdm, options) {
-      this.options = $.extend({}, pjrw.defaults, options);
-      this.pjrwdm = pjrwdm;      // 评教任务代码
-      this.pjzb_storage = [];    // 暂存该评教任务的各指标提交情况
-      this.pjrw_count = 0;       // 评教任务提交次数
-      this.pjzb_check_count = 0; // 评教指标保存情况查询次数
-      this.error_locked = false; // 互斥锁 防止有多个错误发生时 options.error 被调用多次
-    }
-
-    pjrw.defaults = {
-      timeout: 3000,                      // 最长请求时间
-      zb_check_cycle: 1000,               // 评教指标检查周期 (单位毫秒)
-      max_zb_save_attempts: 3,            // 保存评教指标的最大尝试次数
-      max_zb_check_attempts: 10,          // 检查评教指标保存情况的最大尝试次数
-      max_pjrw_save_attempts: 3,          // 保存评教任务信息的最大尝试次数
-      success: function(pjrwdm, data) {}, // 评教成功时的回调
-      fail: function(pjrwdm, data) {},    // 评教失败时的回调 (HTTP 状态码 &lt; 400)
-      error: function(errmsg, data) {}    // 发生错误时的糊掉 (次数超限、Ajax错误、HTTP状态码&gt;=400等)
-    };
-
-    pjrw.zb = {
-      &apos;A&apos;: &apos;9.25&apos;,
-      &apos;B&apos;: &apos;8&apos;,
-      &apos;C&apos;: &apos;6.75&apos;,
-      &apos;D&apos;: &apos;5&apos;,
-      &apos;E&apos;: &apos;3&apos;
-    };
-
-    // 保存一个评教任务中的一个指标
-    // zbdm: 指标代码 范围 1 - 10
-    // zbda: 指标答案 可能的值有 A, B, C, D, E
-    pjrw.prototype.save_zb = function(zbdm, zbda) {
-      zbda = zbda ? zbda.toUpperCase() : &apos;A&apos;;
-      $.ajax({
-        url: &apos;/EOT/rwpjzbSave.do&apos;,
-        type: &apos;POST&apos;,
-        global: false,
-        context: this,
-        timeout: this.options.timeout,
-        data: {
-          pjrwdm: this.pjrwdm, // 评教任务代码
-          pjzbdm: zbdm,        // 评教指标代码
-          zbda: zbda,          // 指标答案
-          pjfz: pjrw.zb[zbda]  // 评教分值
-        },
-        beforeSend: function(jqXHR, settings) {
-          var count = this.pjzb_storage[zbdm] ? this.pjzb_storage[zbdm].count + 1 : 1;
-          this.pjzb_storage[zbdm] = {
-            count: count
-          };
-        },
-        success: function(data, textStatus, jqXHR) {
-          this.pjzb_storage[zbdm] = {
-            value: zbda,
-            count: this.pjzb_storage[zbdm].count
-          };
-        },
-        error: function(jqXHR, textStatus, errorThrown) {
-          if(this.pjzb_storage[zbdm].count &lt;= this.options.max_zb_save_attempts) {
-            return this.save_zb(zbdm, zbda);
-          } else if(this.options.error &amp;&amp; !this.error_locked) {
-            this.options.error(&apos;zb_save_limit_exceeded&apos;, {
-              pjrwdm: this.pjrwdm,
-              jqXHR: jqXHR,
-              textStatus: textStatus,
-              errorThrown: errorThrown
-            });
-          }
-        }
-      });
-    };
-
-    // 保存评教任务信息
-    pjrw.prototype.save_pjrw = function(callback) {
-      $.ajax({
-        url: &apos;/EOT/rwpjSave.do&apos;,
-        type: &apos;POST&apos;,
-        dataType: &apos;json&apos;,
-        cache: false,
-        global: false,
-        context: this,
-        timeout: this.options.timeout,
-        data: {
-          pjrwdm: this.pjrwdm,               // 评教任务代码
-          cpdxdm: &apos;&apos;,                        // 测评对象代码?
-          zb1: this.pjzb_storage[1].value,   // 测评指标 1 答案
-          zb2: this.pjzb_storage[2].value,   // 测评指标 2 答案
-          zb3: this.pjzb_storage[3].value,   // 测评指标 3 答案
-          zb4: this.pjzb_storage[4].value,   // 测评指标 4 答案
-          zb5: this.pjzb_storage[5].value,   // 测评指标 5 答案
-          zb6: this.pjzb_storage[6].value,   // 测评指标 6 答案
-          zb7: this.pjzb_storage[7].value,   // 测评指标 7 答案
-          zb8: this.pjzb_storage[8].value,   // 测评指标 8 答案
-          zb9: this.pjzb_storage[9].value,   // 测评指标 9 答案
-          zb10: this.pjzb_storage[10].value, // 测评指标 10 答案
-          zbtmdm: 9,                         // 指标??代码?
-          py: &apos;&apos;,                            // 意见与建议
-          wjwtdm: 9,                         // ????代码?
-          xzwdt: &apos;&apos;,                         // ?
-          xzwdttm: 9,                        // ?
-          xzwdtxx: &apos;G&apos;,                      // ?
-          wdttm: 10,                         // ?
-          wdt: &apos;&apos;                            // 本课程教学过程中，你个人觉得受益最大的或最满意的地方是
-        },
-        beforeSend: function(jqXHR, settings) {
-          this.pjrw_count++;
-        },
-        success: function(data, textStatus, jqXHR) {
-          if(data.statusCode == &apos;200&apos;) {
-            if(this.options.success) {
-              this.options.success(this.pjrwdm, data);
-            }
-          } else {
-            if(this.options.fail) {
-              this.options.fail(this.pjrwdm, data);
-            }
-          }
-          if(callback) callback(this.pjrwdm, data);
-        },
-        error: function(jqXHR, textStatus, errorThrown) {
-          if(this.pjrw_count &lt;= this.options.max_pjrw_save_attempts) {
-            return this.save_pjrw(callback);
-          } else if(this.options.error &amp;&amp; !this.error_locked) {
-            this.options.error(&apos;pjrw_save_limit_exceeded&apos;, {
-              pjrwdm: this.pjrwdm,
-              jqXHR: jqXHR,
-              textStatus: textStatus,
-              errorThrown: errorThrown
-            });
-          }
-        }
-      });
-    };
-
-    // 检查 10 个评教指标是否都已提交
-    // 如果是，则自动保存评教任务信息
-    // 否则在一个周期后继续检查，直到次数超限
-    pjrw.prototype.check_if_all_zb_saved = function(callback) {
-      var all_saved = true;
-      for(var i=1; i&lt;=10; ++i) {
-        if(this.pjzb_storage[i] &amp;&amp; this.pjzb_storage[i].value) continue;
-        all_saved = false;
-        break;
-      }
-      this.pjzb_check_count++;
-      if(all_saved) {
-        this.save_pjrw(callback);
-      } else if(this.pjzb_check_count &lt;= this.options.max_zb_check_attempts) {
-        setTimeout(this.check_if_all_zb_saved.bind(this, callback), this.options.zb_check_cycle);
-      } else if(this.options.error &amp;&amp; !this.error_locked) {
-        this.options.error(&apos;zb_check_limit_exceeded&apos;, {
-          pjrwdm: this.pjrwdm
-        });
-      }
-    };
-
-    // 开始处理该评教任务
-    pjrw.prototype.submit = function(callback) {
-      for(var i=1; i&lt;=10; ++i) {
-        this.save_zb(i);
-      }
-      this.check_if_all_zb_saved(callback);
-    };
-
-    var EOT = {};
-    EOT.lessons = [];
-    EOT.lessonsTab = null;
-    EOT.rwpjOffset = 0;
-
-    // 初始化
-    EOT.init = function() {
-      EOT.showStartButton();
-    };
-
-    // 显示开始评教按钮
-    EOT.showStartButton = function() {
-      $(&quot;&lt;a href=&apos;#&apos;&gt;开始评教&lt;/a&gt;&quot;).css({
-        &quot;z-index&quot;     : 10000,
-        &quot;position&quot;    : &quot;absolute&quot;,
-        &quot;top&quot;         : &quot;55px&quot;,
-        &quot;right&quot;       : &quot;24px&quot;,
-        &quot;padding&quot;     : &quot;0 8px&quot;,
-        &quot;color&quot;       : &quot;#ffffff&quot;,
-        &quot;background&quot;  : &quot;#000000&quot;,
-        &quot;font-family&quot; : &apos;&quot;Segoe UI&quot;, &quot;Lucida Grande&quot;, Helvetica, Arial, &quot;Microsoft YaHei Light&quot;, &quot;Microsoft YaHei&quot;, FreeSans, Arimo, &quot;Droid Sans&quot;,&quot;wenquanyi micro hei&quot;,&quot;Hiragino Sans GB&quot;, &quot;Hiragino Sans GB W3&quot;, sans-serif&apos;,
-        &quot;font-size&quot;   : &quot;16px&quot;,
-        &quot;opacity&quot;     : 0.6
-      }).click(function() {
-        EOT.showLessonsListTab();
-        $(this).remove();
-      }).appendTo(&quot;body&quot;);
-    };
-
-    // 加载 jGrowl 插件
-    EOT.registerJGrowl = function() {
-      (function(e){var t=function(){return!1===e.support.boxModel&amp;&amp;e.support.objectAll&amp;&amp;e.support.leadingWhitespace}();e.jGrowl=function(t,i){0==e(&quot;#jGrowl&quot;).size()&amp;&amp;e(&apos;&lt;div id=&quot;jGrowl&quot;&gt;&lt;/div&gt;&apos;).addClass(i&amp;&amp;i.position?i.position:e.jGrowl.defaults.position).appendTo(&quot;body&quot;),e(&quot;#jGrowl&quot;).jGrowl(t,i)},e.fn.jGrowl=function(t,i){if(e.isFunction(this.each)){var o=arguments;return this.each(function(){void 0==e(this).data(&quot;jGrowl.instance&quot;)&amp;&amp;(e(this).data(&quot;jGrowl.instance&quot;,e.extend(new e.fn.jGrowl,{notifications:[],element:null,interval:null})),e(this).data(&quot;jGrowl.instance&quot;).startup(this)),e.isFunction(e(this).data(&quot;jGrowl.instance&quot;)[t])?e(this).data(&quot;jGrowl.instance&quot;)[t].apply(e(this).data(&quot;jGrowl.instance&quot;),e.makeArray(o).slice(1)):e(this).data(&quot;jGrowl.instance&quot;).create(t,i)})}},e.extend(e.fn.jGrowl.prototype,{defaults:{pool:0,header:&quot;&quot;,group:&quot;&quot;,sticky:!1,position:&quot;top-right&quot;,glue:&quot;after&quot;,theme:&quot;default&quot;,themeState:&quot;highlight&quot;,corners:&quot;10px&quot;,check:250,life:3e3,closeDuration:&quot;normal&quot;,openDuration:&quot;normal&quot;,easing:&quot;swing&quot;,closer:!0,closeTemplate:&quot;×&quot;,closerTemplate:&quot;&lt;div&gt;[ close all ]&lt;/div&gt;&quot;,log:function(){},beforeOpen:function(){},afterOpen:function(){},open:function(){},beforeClose:function(){},close:function(){},animateOpen:{opacity:&quot;show&quot;},animateClose:{opacity:&quot;hide&quot;}},notifications:[],element:null,interval:null,create:function(t,i){var i=e.extend({},this.defaults,i);i.speed!==void 0&amp;&amp;(i.openDuration=i.speed,i.closeDuration=i.speed),this.notifications.push({message:t,options:i}),i.log.apply(this.element,[this.element,t,i])},render:function(t){var i=this,o=t.message,n=t.options;n.themeState=&quot;&quot;==n.themeState?&quot;&quot;:&quot;ui-state-&quot;+n.themeState;var t=e(&quot;&lt;div/&gt;&quot;).addClass(&quot;jGrowl-notification &quot;+n.themeState+&quot; ui-corner-all&quot;+(void 0!=n.group&amp;&amp;&quot;&quot;!=n.group?&quot; &quot;+n.group:&quot;&quot;)).append(e(&quot;&lt;div/&gt;&quot;).addClass(&quot;jGrowl-close&quot;).html(n.closeTemplate)).append(e(&quot;&lt;div/&gt;&quot;).addClass(&quot;jGrowl-header&quot;).html(n.header)).append(e(&quot;&lt;div/&gt;&quot;).addClass(&quot;jGrowl-message&quot;).html(o)).data(&quot;jGrowl&quot;,n).addClass(n.theme).children(&quot;div.jGrowl-close&quot;).bind(&quot;click.jGrowl&quot;,function(){e(this).parent().trigger(&quot;jGrowl.beforeClose&quot;)}).parent();e(t).bind(&quot;mouseover.jGrowl&quot;,function(){e(&quot;div.jGrowl-notification&quot;,i.element).data(&quot;jGrowl.pause&quot;,!0)}).bind(&quot;mouseout.jGrowl&quot;,function(){e(&quot;div.jGrowl-notification&quot;,i.element).data(&quot;jGrowl.pause&quot;,!1)}).bind(&quot;jGrowl.beforeOpen&quot;,function(){n.beforeOpen.apply(t,[t,o,n,i.element])!==!1&amp;&amp;e(this).trigger(&quot;jGrowl.open&quot;)}).bind(&quot;jGrowl.open&quot;,function(){n.open.apply(t,[t,o,n,i.element])!==!1&amp;&amp;(&quot;after&quot;==n.glue?e(&quot;div.jGrowl-notification:last&quot;,i.element).after(t):e(&quot;div.jGrowl-notification:first&quot;,i.element).before(t),e(this).animate(n.animateOpen,n.openDuration,n.easing,function(){e.support.opacity===!1&amp;&amp;this.style.removeAttribute(&quot;filter&quot;),null!==e(this).data(&quot;jGrowl&quot;)&amp;&amp;(e(this).data(&quot;jGrowl&quot;).created=new Date),e(this).trigger(&quot;jGrowl.afterOpen&quot;)}))}).bind(&quot;jGrowl.afterOpen&quot;,function(){n.afterOpen.apply(t,[t,o,n,i.element])}).bind(&quot;jGrowl.beforeClose&quot;,function(){n.beforeClose.apply(t,[t,o,n,i.element])!==!1&amp;&amp;e(this).trigger(&quot;jGrowl.close&quot;)}).bind(&quot;jGrowl.close&quot;,function(){e(this).data(&quot;jGrowl.pause&quot;,!0),e(this).animate(n.animateClose,n.closeDuration,n.easing,function(){e.isFunction(n.close)?n.close.apply(t,[t,o,n,i.element])!==!1&amp;&amp;e(this).remove():e(this).remove()})}).trigger(&quot;jGrowl.beforeOpen&quot;),&quot;&quot;!=n.corners&amp;&amp;void 0!=e.fn.corner&amp;&amp;e(t).corner(n.corners),e(&quot;div.jGrowl-notification:parent&quot;,i.element).size()&gt;1&amp;&amp;0==e(&quot;div.jGrowl-closer&quot;,i.element).size()&amp;&amp;this.defaults.closer!==!1&amp;&amp;e(this.defaults.closerTemplate).addClass(&quot;jGrowl-closer &quot;+this.defaults.themeState+&quot; ui-corner-all&quot;).addClass(this.defaults.theme).appendTo(i.element).animate(this.defaults.animateOpen,this.defaults.speed,this.defaults.easing).bind(&quot;click.jGrowl&quot;,function(){e(this).siblings().trigger(&quot;jGrowl.beforeClose&quot;),e.isFunction(i.defaults.closer)&amp;&amp;i.defaults.closer.apply(e(this).parent()[0],[e(this).parent()[0]])})},update:function(){e(this.element).find(&quot;div.jGrowl-notification:parent&quot;).each(function(){void 0!=e(this).data(&quot;jGrowl&quot;)&amp;&amp;void 0!==e(this).data(&quot;jGrowl&quot;).created&amp;&amp;e(this).data(&quot;jGrowl&quot;).created.getTime()+parseInt(e(this).data(&quot;jGrowl&quot;).life)&lt;(new Date).getTime()&amp;&amp;e(this).data(&quot;jGrowl&quot;).sticky!==!0&amp;&amp;(void 0==e(this).data(&quot;jGrowl.pause&quot;)||e(this).data(&quot;jGrowl.pause&quot;)!==!0)&amp;&amp;e(this).trigger(&quot;jGrowl.beforeClose&quot;)}),this.notifications.length&gt;0&amp;&amp;(0==this.defaults.pool||e(this.element).find(&quot;div.jGrowl-notification:parent&quot;).size()&lt;this.defaults.pool)&amp;&amp;this.render(this.notifications.shift()),2&gt;e(this.element).find(&quot;div.jGrowl-notification:parent&quot;).size()&amp;&amp;e(this.element).find(&quot;div.jGrowl-closer&quot;).animate(this.defaults.animateClose,this.defaults.speed,this.defaults.easing,function(){e(this).remove()})},startup:function(i){this.element=e(i).addClass(&quot;jGrowl&quot;).append(&apos;&lt;div class=&quot;jGrowl-notification&quot;&gt;&lt;/div&gt;&apos;),this.interval=setInterval(function(){e(i).data(&quot;jGrowl.instance&quot;).update()},parseInt(this.defaults.check)),t&amp;&amp;e(this.element).addClass(&quot;ie6&quot;)},shutdown:function(){e(this.element).removeClass(&quot;jGrowl&quot;).find(&quot;div.jGrowl-notification&quot;).trigger(&quot;jGrowl.close&quot;).parent().empty(),clearInterval(this.interval)},close:function(){e(this.element).find(&quot;div.jGrowl-notification&quot;).each(function(){e(this).trigger(&quot;jGrowl.beforeClose&quot;)})}}),e.jGrowl.defaults=e.fn.jGrowl.prototype.defaults})(jQuery);
-      $(&quot;body&quot;).append(&quot;&lt;div id=&apos;TOPLEFTMSG&apos; class=&apos;jGrowl top-left&apos;&gt;&lt;style stype=&apos;text/css&apos;&gt;div.jGrowl{z-index:100010;color:#fff;font-size:12px}div.jGrowl a{color:#FF0}div.jGrowl a:hover{text-decoration:underline}div.ie6{position:absolute}div.ie6.top-right{right:auto;bottom:auto;left:expression((0-jGrowl.offsetWidth+(document.documentElement.clientWidth?document.documentElement.clientWidth:document.body.clientWidth)+(ignoreMe2=document.documentElement.scrollLeft?document.documentElement.scrollLeft:document.body.scrollLeft))+&apos;px&apos;);top:expression((0+(ignoreMe=document.documentElement.scrollTop?document.documentElement.scrollTop:document.body.scrollTop))+&apos;px&apos;)}div.ie6.top-left{left:expression((0+(ignoreMe2=document.documentElement.scrollLeft?document.documentElement.scrollLeft:document.body.scrollLeft))+&apos;px&apos;);top:expression((0+(ignoreMe=document.documentElement.scrollTop?document.documentElement.scrollTop:document.body.scrollTop))+&apos;px&apos;)}div.ie6.bottom-right{left:expression((0-jGrowl.offsetWidth+(document.documentElement.clientWidth?document.documentElement.clientWidth:document.body.clientWidth)+(ignoreMe2=document.documentElement.scrollLeft?document.documentElement.scrollLeft:document.body.scrollLeft))+&apos;px&apos;);top:expression((0-jGrowl.offsetHeight+(document.documentElement.clientHeight?document.documentElement.clientHeight:document.body.clientHeight)+(ignoreMe=document.documentElement.scrollTop?document.documentElement.scrollTop:document.body.scrollTop))+&apos;px&apos;)}div.ie6.bottom-left{left:expression((0+(ignoreMe2=document.documentElement.scrollLeft?document.documentElement.scrollLeft:document.body.scrollLeft))+&apos;px&apos;);top:expression((0-jGrowl.offsetHeight+(document.documentElement.clientHeight?document.documentElement.clientHeight:document.body.clientHeight)+(ignoreMe=document.documentElement.scrollTop?document.documentElement.scrollTop:document.body.scrollTop))+&apos;px&apos;)}div.ie6.center{left:expression((0+(ignoreMe2=document.documentElement.scrollLeft?document.documentElement.scrollLeft:document.body.scrollLeft))+&apos;px&apos;);top:expression((0+(ignoreMe=document.documentElement.scrollTop?document.documentElement.scrollTop:document.body.scrollTop))+&apos;px&apos;);width:100%}div.jGrowl{position:absolute}body &gt; div.jGrowl{position:fixed}div.jGrowl.top-left{left:0;top:0}div.jGrowl.top-right{right:0;top:0}div.jGrowl.bottom-left{left:0;bottom:0}div.jGrowl.bottom-right{right:0;bottom:0}div.jGrowl.center{top:0;width:50%;left:25%}div.center div.jGrowl-notification,div.center div.jGrowl-closer{margin-left:auto;margin-right:auto}div.jGrowl div.jGrowl-notification,div.jGrowl div.jGrowl-closer{background-color:#000;opacity:.85;-ms-filter:\&quot;progid:DXImageTransform.Microsoft.Alpha(Opacity=85)\&quot;;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=85);zoom:1;width:235px;padding:10px;margin-top:5px;margin-bottom:5px;font-family:Tahoma,Arial,Helvetica,sans-serif;font-size:1em;text-align:left;display:none;-moz-border-radius:5px;-webkit-border-radius:5px;-o-border-radius:5px;border-radius:5px}div.jGrowl div.jGrowl-notification{min-height:40px}div.jGrowl div.jGrowl-notification,div.jGrowl div.jGrowl-closer{margin:10px}div.jGrowl div.jGrowl-notification div.jGrowl-header{font-weight:bold;font-size:.85em}div.jGrowl div.jGrowl-notification div.jGrowl-close{z-index:99;float:right;font-weight:bold;font-size:1em;cursor:pointer}div.jGrowl div.jGrowl-closer{padding-top:4px;padding-bottom:4px;cursor:pointer;font-size:.9em;font-weight:bold;text-align:center}@media print{div.jGrowl{display:none}}&lt;/style&gt;&quot;);
-      $.jGrowl.defaults.life = 1500;
-      $.jGrowl.defaults.closerTemplate = &quot;&lt;div&gt;[ 关闭全部 ]&lt;/div&gt;&quot;;
-    };
-
-    // 注册基本样式
-    EOT.registerStyle = function() {
-      var css = &quot;&quot;;
-      css += &apos;&lt;style type=&quot;text/css&quot;&gt;&apos;;
-      css += &apos;.text-muted { color: #777; }&apos;;
-      css += &apos;.text-primary { color: #428bca; }&apos;;
-      css += &apos;a.text-primary:hover { color: #3071a9; }&apos;;
-      css += &apos;.text-success { color: #3c763d; }&apos;;
-      css += &apos;a.text-success:hover { color: #2b542c; }&apos;;
-      css += &apos;.text-info { color: #31708f; }&apos;;
-      css += &apos;a.text-info:hover { color: #245269; }&apos;;
-      css += &apos;.text-warning { color: #8a6d3b; }&apos;;
-      css += &apos;a.text-warning:hover { color: #66512c; }&apos;;
-      css += &apos;.text-danger { color: #a94442; }&apos;;
-      css += &apos;a.text-danger:hover { color: #843534; }&apos;;
-      css += &apos;.bg-primary { color: #fff; background-color: #428bca; }&apos;;
-      css += &apos;a.bg-primary:hover { background-color: #3071a9; }&apos;;
-      css += &apos;.bg-success { background-color: #dff0d8; }&apos;;
-      css += &apos;a.bg-success:hover { background-color: #c1e2b3; }&apos;;
-      css += &apos;.bg-info { background-color: #d9edf7; }&apos;;
-      css += &apos;a.bg-info:hover { background-color: #afd9ee; }&apos;;
-      css += &apos;.bg-warning { background-color: #fcf8e3; }&apos;;
-      css += &apos;a.bg-warning:hover { background-color: #f7ecb5; }&apos;;
-      css += &apos;.bg-danger { background-color: #f2dede; }&apos;;
-      css += &apos;a.bg-danger:hover { background-color: #e4b9b9; }&apos;;
-      css += &apos;.text-green { color: #00ff00; }&apos;;
-      css += &apos;.jGrowl-message, .jGrowl-message p, .jGrowl-message b, .jGrowl-message span { font-size: 16px; font-family: &quot;Segoe UI&quot;, &quot;Lucida Grande&quot;, Helvetica, Arial, &quot;Microsoft YaHei Light&quot;, &quot;Microsoft YaHei&quot;, FreeSans, Arimo, &quot;Droid Sans&quot;,&quot;wenquanyi micro hei&quot;,&quot;Hiragino Sans GB&quot;, &quot;Hiragino Sans GB W3&quot;, sans-serif; }&apos;;
-      css += &apos;&lt;/style&gt;&apos;;
-      $(&quot;head&quot;).append(css);
-    };
-
-    // 模拟点击 功能模块-&gt;课程评教
-    EOT.showLessonsListTab = function() {
-      this.registerJGrowl();
-      this.registerStyle();
-      $.jGrowl(&quot;正在读取课程评教列表...&quot;);
-      $(&quot;#sidebar &gt; .accordion.dwz-accordion &gt; .accordionContent a[rel=&apos;pjkcList&apos;]&quot;).click();
-      var $this = this;
-      setTimeout(function() {
-        $this.detectLessonsListTab.call($this);
-      }, 400);
-    };
-
-    // 判断课程评教选项卡是否已加载完成
-    EOT.detectLessonsListTab = function() {
-      if(navTab._indexTabId(&quot;pjkcList&quot;) == -1 || $(&quot;#progressBar&quot;).is(&quot;:visible&quot;)) {
-        var $this = this;
-        return setTimeout(function() {
-          $this.detectLessonsListTab.call($this);
-        }, 400);
-      }
-      $.jGrowl(&quot;课程评教列表已加载完成&quot;);
-      this.collectLessons();
-      this.startPJ();
-    };
-
-    // 收集课程评教列表
-    EOT.collectLessons = function() {
-      var tabindex = navTab._indexTabId(&quot;pjkcList&quot;);
-      this.lessonsTab = $(&quot;.navTab-panel &gt; .page:nth-child(&quot; + (tabindex + 1) + &quot;)&quot;);
-      this.lessons = this.lessonsTab.find(&apos;table tr[target=&quot;sid_kcpjrwdm&quot;]&apos;).map(function() {
-        return {
-          rel:       $(this).attr(&quot;rel&quot;),
-          lesson:    $(this).find(&quot;td:nth-child(1)&quot;).text(),
-          teacher:   $(this).find(&quot;td:nth-child(2)&quot;).text(),
-          type:      $(this).find(&quot;td:nth-child(3)&quot;).text(),
-          starttime: $(this).find(&quot;td:nth-child(4)&quot;).text(),
-          endtime:   $(this).find(&quot;td:nth-child(5)&quot;).text(),
-          status:    $(this).find(&quot;td:nth-child(6)&quot;).text()
-        };
-      });
-    };
-
-    // 开始评教
-    EOT.startPJ = function() {
-      var $this = this;
-      if(this.rwpjOffset &gt;= this.lessons.length) {
-        navTab.closeTab(&quot;rwpj&quot;);
-        $(&quot;#sidebar &gt; .accordion.dwz-accordion &gt; .accordionContent a[rel=&apos;pjkcList&apos;]&quot;).click();
-        return $.jGrowl(&quot;&lt;p class=&apos;text-green&apos;&gt;评教完成!&lt;/p&gt;&quot;, {sticky:true});
-      } else if(this.lessons[this.rwpjOffset].status != &quot;未评&quot;) {
-        this.rwpjOffset++;
-        return this.startPJ();
-      } else if(!this.dateCheck(this.lessons[this.rwpjOffset].starttime, this.lessons[this.rwpjOffset].endtime, true)) {
-        $(&quot;#TOPLEFTMSG&quot;).jGrowl(&quot;&lt;p&gt;&lt;b&gt;&quot; + this.lessons[this.rwpjOffset].lesson + &quot;&lt;/b&gt;不在评教时间内 已自动跳过&lt;/p&gt;&quot;, {sticky:true});
-        this.rwpjOffset++;
-        return this.startPJ();
-      }
-
-      var lesson = this.lessons[this.rwpjOffset];
-      var rel = lesson.rel;
-      $.jGrowl(&quot;正在评教: &lt;b class=&apos;text-primary&apos;&gt;&quot; + lesson.lesson + &quot;&lt;/b&gt;&quot;);
-      var temp = new pjrw(rel, {
-        success: function(pjrwdm, data) {
-          $this.rwpjOffset++;
-          $.jGrowl(&quot;&lt;p class=&apos;text-green&apos;&gt;&lt;b&gt;&quot; + lesson.lesson + &quot;&lt;/b&gt; 评教成功!&lt;/p&gt;&quot;);
-          $this.startPJ();
-        },
-        fail: function(pjrwdm, data) {
-          console.error(lesson.lesson, pjrwdm, data);
-          $(&quot;#TOPLEFT&quot;).jGrowl(&quot;&lt;p class=&apos;text-danger&apos;&gt;&lt;b&gt;&quot; + lesson.lesson + &quot;&lt;/b&gt; 评教失败 已自动跳过!&lt;br&gt;失败详情可在 Console 中查看&lt;/p&gt;&quot;, {sticky:true});
-          $this.rwpjOffset++;
-          $this.startPJ();
-        },
-        error: function(errmsg, data) {
-          console.error(lesson.lesson, errmsg, data);
-          $(&quot;#TOPLEFT&quot;).jGrowl(&quot;&lt;p class=&apos;text-danger&apos;&gt;&lt;b&gt;&quot; + lesson.lesson + &quot;&lt;/b&gt; 评教失败 已自动跳过!&lt;br&gt;失败详情可在 Console 中查看&lt;/p&gt;&quot;, {sticky:true});
-          $this.rwpjOffset++;
-          $this.startPJ();
-        }
-      });
-      temp.submit();
-    };
-
-    // 检查评教时间
-    EOT.dateCheck = function(startdate, enddate, ignoreEnddate) {
-      var now = (new Date).getTime();
-      var start = this.strtodate(startdate, 0, 0, 0, 0).getTime();
-      var end = this.strtodate(enddate, 23, 59, 59, 0).getTime();
-      return ignoreEnddate ? now &gt;= start : now &gt;= start &amp;&amp; now &lt;= end;
-    };
-
-    // 将形如 2015-01-01 的日期字串转换为 Date 对象
-    EOT.strtodate = function(str, hour, minute, second, millisec) {
-      var date = new Date();
-      var tmp = str.match(/(\d+)-(\d+)-(\d+)/);
-      var year = tmp[1] | 0;
-      var month = tmp[2] | 0;
-      var day = tmp[3] | 0;
-      hour = hour || 0;
-      minute = minute || 0;
-      second = second || 0;
-      millisec = millisec || 0;
-      date.setFullYear(year);
-      date.setMonth(month ? month - 1 : 0);
-      date.setDate(day);
-      date.setHours(hour);
-      date.setMinutes(minute);
-      date.setSeconds(second);
-      date.setMilliseconds(millisec);
-      return date;
-    };
-
-    EOT.init();
-  }
-
-})();
-</code></pre>
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
+        <div class="article-info info-on-right">
+          
 	<div class="article-tag tagcloud">
 		<i class="icon-price-tags icon"></i>
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">软件</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">教程</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">资源</a>
         		</li>
       		
 		</ul>
 	</div>
 
-      
+          
 
-      
-
-      
-        
-<div class="share-btn share-icons tooltip-left">
-  <div class="tooltip tooltip-east">
-    <span class="tooltip-item">
-      <a href="javascript:;" class="share-sns share-outer">
-        <i class="icon icon-share"></i>
-      </a>
-    </span>
-    <span class="tooltip-content">
-      <div class="share-wrap">
-        <div class="share-icons">
-          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
-            <i class="icon icon-weibo"></i>
-          </a>
-          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
-            <i class="icon icon-weixin"></i>
-          </a>
-          <a class="qq share-sns" href="javascript:;" data-type="qq">
-            <i class="icon icon-qq"></i>
-          </a>
-          <a class="douban share-sns" href="javascript:;" data-type="douban">
-            <i class="icon icon-douban"></i>
-          </a>
-          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
-            <i class="icon icon-qzone"></i>
-          </a>
-          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
-            <i class="icon icon-facebook"></i>
-          </a>
-          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
-            <i class="icon icon-twitter"></i>
-          </a>
-          <a class="google share-sns" href="javascript:;" data-type="google">
-            <i class="icon icon-google"></i>
-          </a>
         </div>
-      </div>
-    </span>
-  </div>
-</div>
-
-<div class="page-modal wx-share js-wx-box">
-    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
-    <p>扫一扫，分享到微信</p>
-    <div class="wx-qrcode">
-      <img src="http://s.jiathis.com/qrcode.php?url=http://9ajiang.cn/2017/08/15/教务处自动评教方法/" alt="微信分享二维码">
-    </div>
-</div>
-
-<div class="mask js-mask"></div>
-      
-      <div class="clearfix"></div>
-    </div>
+        <div class="clearfix"></div>
+    </header>
   </div>
 </article>
-
-  
-<nav id="article-nav">
   
   
-    <a href="/2017/08/15/Iobit注册码/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">Iobit注册码</div>
-      <i class="icon-circle-right"></i>
-    </a>
-  
-</nav>
-
-
-
-
-
-  
-  
+    </div></section>
   
 
-  
-  <div id="SOHUCS" sid="教务处自动评教方法" ></div> 
-<script type="text/javascript"> 
-(function(){ 
-var appid = "cysVnve9s"; 
-var conf = "e3be2ec06bcead103a4e44136262042c"; 
-var width = window.innerWidth || document.documentElement.clientWidth; 
-if (width < 960) { 
-window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="text/javascript" src="http://changyan.sohu.com/upload/mobile/wap-js/changyan_mobile.js?client_id=' + appid + '&conf=' + conf + '"><\/script>'); } else { var loadJs=function(d,a){var c=document.getElementsByTagName("head")[0]||document.head||document.documentElement;var b=document.createElement("script");b.setAttribute("type","text/javascript");b.setAttribute("charset","UTF-8");b.setAttribute("src",d);if(typeof a==="function"){if(window.attachEvent){b.onreadystatechange=function(){var e=b.readyState;if(e==="loaded"||e==="complete"){b.onreadystatechange=null;a()}}}else{b.onload=a}}c.appendChild(b)};loadJs("http://changyan.sohu.com/upload/changyan.js",function(){window.changyan.api.config({appid:appid,conf:conf})}); } })(); </script>
-  
-
-  
+    
 
 
           </div>
@@ -705,9 +242,9 @@ window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="tex
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: true,
+		isPost: false,
 		isArchive: false,
-		isTag: false,
+		isTag: true,
 		isCategory: false,
 		open_in_new: false,
 		root: "/",
@@ -796,6 +333,14 @@ window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="tex
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">笔记</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">教程</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">资源</a>
               </li>
             
             <div class="clearfix"></div>
