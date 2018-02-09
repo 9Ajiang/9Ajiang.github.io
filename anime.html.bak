@@ -97,41 +97,29 @@
     <div class="tabCon">
         <div class="tabBox">
             <div class="tabList">
-				<a href="http://share.dmhy.org/topics/list?keyword=%E9%8A%80%E9%AD%82%7CGintama" target="_blank">银魂</a><br>
-				<a href="http://share.dmhy.org/topics/list?keyword=%E4%B8%8A%E6%AD%8C" target="_blank">泥鲸之子们在沙地上歌唱</a><br>
-				<a href="https://bangumi.bilibili.com/anime/6446" target="_blank">干物妹小埋R</a>
+				<a href="https://bangumi.bilibili.com/anime/21554/?spm_id_from=333.334.bili_bangumi.4" target="_blank">龙王的工作</a><br>
+				<a href="https://bangumi.bilibili.com/anime/21755/?spm_id_from=333.334.bili_bangumi.7">刻刻</a>
             </div>
             <div class="tabList">
-				<a href="https://bangumi.bilibili.com/anime/6418" target="_blank">悠久持有者</a><br>
-				<a href="https://bangumi.bilibili.com/anime/6422" target="_blank">黑色五叶草</a><br>
-				<a href="https://bangumi.bilibili.com/anime/6421" target="_blank">阿松Ⅱ</a>
+				<a href="http://www.iqiyi.com/a_19rrh1ss1p.html?vfm=2008_aldbd" target="_blank">擅长捉弄人的高木同学</a><br>
             </div>
             <div class="tabList">
-				<a href="https://bangumi.bilibili.com/anime/6420" target="_blank">十二大战</a><br>
-				<a href="https://bangumi.bilibili.com/anime/6474" target="_blank">URAHARA</a>
+				<a href="#" target="_blank"></a><br>
             </div>
             <div class="tabList">
-				<a href="http://share.dmhy.org/topics/list?keyword=Youkai+Watch" target="_blank">妖怪手表</a><br>
-				<a href="https://bangumi.bilibili.com/anime/6425" target="_blank">此花亭奇谈</a>
+				<a href="https://bangumi.bilibili.com/anime/21542/?spm_id_from=333.334.bili_bangumi.4" target="_blank">紫罗兰永恒花园</a><br>
 			</div>
             <div class="tabList">
-				<a href="https://bangumi.bilibili.com/anime/6427" target="_blank">Just Because!</a><br>
-				<a href="https://bangumi.bilibili.com/anime/6426" target="_blank">国王游戏</a><br>
-				<a href="https://bangumi.bilibili.com/anime/6463" target="_blank">少女终末旅行</a><br>
-				<a href="http://share.dmhy.org/topics/list?keyword=%E7%8A%AC%E5%B1%8B%E6%95%B7" target="_blank">犬屋敷</a>
+				<a href="http://list.youku.com/show/id_zefbfbdefbfbd0360efbf.html?spm=a2h0j.8191423.module_basic_title.5~A!2" target="_blank">恋如雨止</a><br>
+				<a href="https://bangumi.bilibili.com/anime/21750/?spm_id_from=333.334.bili_bangumi.16" target="_blank">刀使巫女</a>
             </div>
             <div class="tabList">
-				<a href="https://bangumi.bilibili.com/anime/6301" target="_blank">Fate/Apocrypha</a><br>
-				<a href="http://share.dmhy.org/topics/list?keyword=%E5%A5%87%E8%AB%BE" target="_blank">奇诺之旅</a><br>
-				<a href="https://bangumi.bilibili.com/anime/6430" target="_blank">Dies irae</a><br>
-				<a href="https://bangumi.bilibili.com/anime/6434" target="_blank">宝石之国</a>
+				<a href="https://bangumi.bilibili.com/anime/21557/?spm_id_from=333.334.bili_bangumi.4" target="_blank">Citrus</a><br>
+				<a href="https://bangumi.bilibili.com/anime/21729/?spm_id_from=333.334.bili_bangumi.7" target="_blank">七大罪 戒律的复活</a>
             </div>
             <div class="tabList">
-				<a href="http://share.dmhy.org/topics/list?keyword=%E5%81%B4%E8%BB%8A" target="_blank">侧车搭档</a><br>
-				<a href="https://bangumi.bilibili.com/anime/6432" target="_blank">调教咖啡厅</a><br>
-				<a href="https://bangumi.bilibili.com/anime/6438" target="_blank">魔法使的新娘</a><br>
-				<a href="https://bangumi.bilibili.com/anime/6439" target="_blank">血界战线&BEYOND</a><br>
-				<a href="https://bangumi.bilibili.com/anime/6445" target="_blank">三月的狮子Ⅱ</a>
+				<a href="http://www.iqiyi.com/v_19rrewimn0.html" target="_blank">DARLING in the FRANXX</a><br>
+				<a href="http://list.youku.com/show/id_zefbfbdd6a653efbfbd19.html?spm=a2h0j.8191423.module_basic_title.5~A!2" target="_blank">魔法使的新娘</a>
             </div>
         </div>
     </div>
@@ -146,12 +134,12 @@
 	<div>
 		<section role="main" class="body">
 		<div class="row">
-				<a class="red button" href="http://9ajiang.cn">返回博客首页</a>
+				<a class="red button" href="http://9ajiang.cn">返回首页</a>
 		</div>
 		</section>
 	</div>
 	<div>
-		<span style="font-family:arial; color:#fff"> &copy; &nbsp;2017&nbsp;9A</span> 
+		<span style="font-family:arial; color:#fff"> &copy; &nbsp;2018&nbsp;9A</span> 
 	</div>
 </div>
 
@@ -362,7 +350,6 @@
     }
     
 </script>
-<!-- 代码部分end -->
 
 </body>
 </html>
