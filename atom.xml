@@ -138,7 +138,7 @@
     <link href="http://9ajiang.cn/2017/11/02/%E6%95%99%E5%8A%A1%E5%A4%84%E8%87%AA%E5%8A%A8%E8%AF%84%E6%95%99%E6%96%B9%E6%B3%95/"/>
     <id>http://9ajiang.cn/2017/11/02/教务处自动评教方法/</id>
     <published>2017-11-02T10:13:31.000Z</published>
-    <updated>2017-12-05T14:41:05.950Z</updated>
+    <updated>2018-07-30T05:41:26.275Z</updated>
     
     <content type="html"><![CDATA[<p>由于chrome插件的安装现在必须通过自带商店，所以只能采用脚本管理工具来实现自动评教，这里使用<a href="http://tampermonkey.net/" title="油猴" target="_blank" rel="external">油猴</a>脚本管理工具<br>自动评教的代码见文末下载文件。  </p>
 <a id="more"></a>
@@ -147,7 +147,7 @@
 <li>下载文件，复制代码，粘贴。</li>
 <li>打开教务处，进入评教界面，右上角出现自动评教按钮，点击开始。</li>
 </ol>
-<p><em>脚本文件下载：</em><a href="http://om8k74ojm.bkt.clouddn.com/%E6%AD%A6%E7%90%86%E5%B7%A5%E6%95%99%E5%8A%A1%E7%B3%BB%E7%BB%9F%E8%87%AA%E5%8A%A8%E6%89%B9%E9%87%8F%E6%95%99%E5%AD%A6%E8%AF%84%E4%BB%B7%E8%84%9A%E6%9C%AC.txt" title="武理工教务系统自动批量教学评价脚本.txt" target="_blank" rel="external">武理工教务系统自动批量教学评价脚本.txt</a></p>
+<p><em>脚本文件下载：</em><a href="https://om8k74ojm.bkt.clouddn.com/%E6%AD%A6%E7%90%86%E5%B7%A5%E6%95%99%E5%8A%A1%E7%B3%BB%E7%BB%9F%E8%87%AA%E5%8A%A8%E6%89%B9%E9%87%8F%E6%95%99%E5%AD%A6%E8%AF%84%E4%BB%B7%E8%84%9A%E6%9C%AC.txt" title="武理工教务系统自动批量教学评价脚本.txt" target="_blank" rel="external">武理工教务系统自动批量教学评价脚本.txt</a></p>
 ]]></content>
     
     <summary type="html">
@@ -463,14 +463,14 @@
     <link href="http://9ajiang.cn/2017/05/11/%E5%8A%A8%E7%94%BB%E7%95%AA%E8%A1%A8%E4%B8%8A%E7%BA%BF/"/>
     <id>http://9ajiang.cn/2017/05/11/动画番表上线/</id>
     <published>2017-05-11T05:37:32.000Z</published>
-    <updated>2017-12-05T14:40:50.565Z</updated>
+    <updated>2018-07-30T05:40:50.193Z</updated>
     
-    <content type="html"><![CDATA[<p>自己在追的一些新番，找不到好一点的追剧软件来记录，于是写了一个。功能简陋，但是实用23333。<br><a href="http://9ajiang.cn/anime.html" title="9A的动画番表">9A的动画番表</a><br><img src="http://om8k74ojm.bkt.clouddn.com/17-7-29/53123606.jpg" alt=""></p>
+    <content type="html"><![CDATA[<p>自己在追的一些新番，找不到好一点的追剧软件来记录，于是写了一个。功能简陋，但是实用23333。<br><a href="https://9ajiang.cn/anime.html" title="9A的动画番表">9A的动画番表</a><br><img src="http://om8k74ojm.bkt.clouddn.com/17-7-29/53123606.jpg" alt=""></p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;自己在追的一些新番，找不到好一点的追剧软件来记录，于是写了一个。功能简陋，但是实用23333。&lt;br&gt;&lt;a href=&quot;http://9ajiang.cn/anime.html&quot; title=&quot;9A的动画番表&quot;&gt;9A的动画番表&lt;/a&gt;&lt;br&gt;&lt;img src=&quot;http:/
+      &lt;p&gt;自己在追的一些新番，找不到好一点的追剧软件来记录，于是写了一个。功能简陋，但是实用23333。&lt;br&gt;&lt;a href=&quot;https://9ajiang.cn/anime.html&quot; title=&quot;9A的动画番表&quot;&gt;9A的动画番表&lt;/a&gt;&lt;br&gt;&lt;img src=&quot;http:
     
     </summary>
     
@@ -484,9 +484,9 @@
     <link href="http://9ajiang.cn/2017/03/04/%E3%80%8AShelter%E3%80%8B--I&#39;ll%20give%20them%20shelter%20like%20you&#39;ve%20done%20for%20me/"/>
     <id>http://9ajiang.cn/2017/03/04/《Shelter》--I&#39;ll give them shelter like you&#39;ve done for me/</id>
     <published>2017-03-04T05:41:05.000Z</published>
-    <updated>2017-12-05T14:40:17.874Z</updated>
+    <updated>2018-07-30T05:36:42.200Z</updated>
     
-    <content type="html"><![CDATA[<div align="center"><br><img src="http://om8k74ojm.bkt.clouddn.com/17-3-4/71188555-file_1488596676387_2198.jpg" alt="img"><br></div>
+    <content type="html"><![CDATA[<div align="center"><br><img src="https://om8k74ojm.bkt.clouddn.com/17-3-4/71188555-file_1488596676387_2198.jpg" alt="img"><br></div>
 
 <a id="more"></a>
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="86" src="//music.163.com/outchain/player?type=2&id=461347446&auto=0&height=66"></iframe>
@@ -497,7 +497,7 @@
     
     <summary type="html">
     
-      &lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://om8k74ojm.bkt.clouddn.com/17-3-4/71188555-file_1488596676387_2198.jpg&quot; alt=&quot;img&quot;&gt;&lt;br&gt;&lt;/div&gt;
+      &lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://om8k74ojm.bkt.clouddn.com/17-3-4/71188555-file_1488596676387_2198.jpg&quot; alt=&quot;img&quot;&gt;&lt;br&gt;&lt;/div&gt;
     
     </summary>
     
@@ -511,11 +511,11 @@
     <link href="http://9ajiang.cn/2017/03/03/%E3%80%8A%E9%BE%99%E7%9A%84%E7%89%99%E5%8C%BB%E3%80%8B--%E9%82%A3%E4%B8%AA%E5%9B%BD%E5%AE%B6%E6%A0%96%E6%81%AF%E7%9D%80%E9%BE%99/"/>
     <id>http://9ajiang.cn/2017/03/03/《龙的牙医》--那个国家栖息着龙/</id>
     <published>2017-03-03T15:57:32.000Z</published>
-    <updated>2017-12-05T14:40:17.874Z</updated>
+    <updated>2018-07-30T05:37:37.601Z</updated>
     
     <content type="html"><![CDATA[<p>那个国家栖息着龙——神话中说，古时的人与龙定下了契约，龙帮助人，人帮助龙……  </p>
 <hr>
-<div align="center"><br><img src="http://om8k74ojm.bkt.clouddn.com/17-3-4/2536685-file_1488557878694_7e3f.jpg" alt="imge"><br></div>
+<div align="center"><br><img src="https://om8k74ojm.bkt.clouddn.com/17-3-4/2536685-file_1488557878694_7e3f.jpg" alt="imge"><br></div>
 
 <ul>
 <li>《龙的牙医》（日语：龍の歯医者，英语：The Dragon Dentist）是日本短编原创网络动画，最初于日本动画人展览会播出，舞城王太郎编剧兼导演，鹤卷和哉动画导演，小坂泰之作人物设定，龟田祥伦为作画指导兼动画人物设定。故事讲述战争期间，原本在某国栖息的龙，以及与之定下契约的龙牙医们所遇之事。2017年2月份于NHK BS Premium频道播出2集各长约45分钟的电视动画。  </li>
@@ -523,18 +523,18 @@
 <a id="more"></a>
 <p><br></p>
 <h2 id="剧情"><a href="#剧情" class="headerlink" title="剧情"></a>剧情</h2><p><strong>前篇·天狗虫篇</strong>：主人公野野子，是保护拥有超越人类智慧力量的国家守护者“龙”的新任“龙的牙医”。有一天，野野子在龙的牙齿上解救了敌国的少年——贝尔。战乱中牺牲的贝尔，在“黄泉归来”的现象中复活了。贝尔对自己的处境感到困惑。意想不到的是，贝尔成为“后辈”这件事，令野野子充满干劲。然而，“黄泉归来”是巨大异变的先兆……  </p>
-<p><div align="center" style="background:#778288;"><br><img src="http://om8k74ojm.bkt.clouddn.com/17-3-4/94057161-file_1488558501184_b65f.jpg" alt="img"><br><strong>剧中龙的设定</strong><br></div><br><strong>后篇·杀戮虫篇</strong>：为了追寻因蛀牙菌的出现而遭腐蚀脱落的龙的牙齿，野野子和贝尔落到了战乱中的地面上。塞尔佩纳达军雇佣兵们追赶着他们。随后精练的牙医柴名被天狗虫附体而消失。雄壮的故事终于走向了高潮。</p>
+<p><div align="center" style="background:#778288;"><br><img src="https://om8k74ojm.bkt.clouddn.com/17-3-4/94057161-file_1488558501184_b65f.jpg" alt="img"><br><strong>剧中龙的设定</strong><br></div><br><strong>后篇·杀戮虫篇</strong>：为了追寻因蛀牙菌的出现而遭腐蚀脱落的龙的牙齿，野野子和贝尔落到了战乱中的地面上。塞尔佩纳达军雇佣兵们追赶着他们。随后精练的牙医柴名被天狗虫附体而消失。雄壮的故事终于走向了高潮。</p>
 <p><br></p>
 <h2 id="感想"><a href="#感想" class="headerlink" title="感想"></a>感想</h2><p>难得的一部佳作，设定很有意思，同时可能是每个人物都极具个性，加上故事比较紧凑的原因吧，并不会让你投入太多到设定或故事背景上。我从这个故事里面只是看到了每个人对于自己命运的选择，有人选择接受自己的命运，有人想竭尽全力反抗，有人为了所爱的人能放弃反抗命运坦然面对自己的终末。但是就像最后呈现给我们的一样，人终究是渺小的，不过这并不意味着应该放弃挣扎和生活。天下无敌的龙不也是为了反抗自己的命运而复活了贝尔嘛。所以不论终末是怎样，都应该作出自己的选择并勇敢面对。</p>
 <p><br></p>
-<h2 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h2><p><a href="http://bangumi.bilibili.com/anime/5933" target="_blank" rel="external">《龙的牙医》（Bilibili）</a></p>
+<h2 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h2><p><a href="https://bangumi.bilibili.com/anime/5933" target="_blank" rel="external">《龙的牙医》（Bilibili）</a></p>
 ]]></content>
     
     <summary type="html">
     
       &lt;p&gt;那个国家栖息着龙——神话中说，古时的人与龙定下了契约，龙帮助人，人帮助龙……  &lt;/p&gt;
 &lt;hr&gt;
-&lt;div align=center&gt;&lt;br&gt;&lt;img src=&quot;http://om8k74ojm.bkt.clouddn.com/17-3-4/2536685-file_1488557878694_7e3f.jpg&quot; alt=&quot;imge&quot;&gt;&lt;br&gt;&lt;/div&gt;
+&lt;div align=center&gt;&lt;br&gt;&lt;img src=&quot;https://om8k74ojm.bkt.clouddn.com/17-3-4/2536685-file_1488557878694_7e3f.jpg&quot; alt=&quot;imge&quot;&gt;&lt;br&gt;&lt;/div&gt;
 
 &lt;ul&gt;
 &lt;li&gt;《龙的牙医》（日语：龍の歯医者，英语：The Dragon Dentist）是日本短编原创网络动画，最初于日本动画人展览会播出，舞城王太郎编剧兼导演，鹤卷和哉动画导演，小坂泰之作人物设定，龟田祥伦为作画指导兼动画人物设定。故事讲述战争期间，原本在某国栖息的龙，以及与之定下契约的龙牙医们所遇之事。2017年2月份于NHK BS Premium频道播出2集各长约45分钟的电视动画。  &lt;/li&gt;
@@ -552,23 +552,23 @@
     <link href="http://9ajiang.cn/2017/03/01/%E5%9C%A8%E7%BA%BF%E9%9F%B3%E4%B9%90%E8%A7%A3%E6%9E%90&amp;%E4%B8%8B%E8%BD%BD%E5%B7%A5%E5%85%B7/"/>
     <id>http://9ajiang.cn/2017/03/01/在线音乐解析&amp;下载工具/</id>
     <published>2017-03-01T14:54:56.000Z</published>
-    <updated>2017-12-05T14:40:17.667Z</updated>
+    <updated>2018-07-30T05:41:45.772Z</updated>
     
     <content type="html"><![CDATA[<ul>
 <li>这是几个可以下曲子的网站，有的还可以作外链用，很不错。</li>
 </ul>
 <h2 id="1-音乐查询工具：https-music-liuli-lol"><a href="#1-音乐查询工具：https-music-liuli-lol" class="headerlink" title="1.音乐查询工具：https://music.liuli.lol/ "></a>1.音乐查询工具：<a href="https://music.liuli.lol/" target="_blank" rel="external">https://music.liuli.lol/</a> </h2><blockquote>
-<p><img src="http://om8k74ojm.bkt.clouddn.com/17-3-3/74162441-file_1488550832724_b661.jpg" alt="Alt">  </p>
+<p><img src="https://om8k74ojm.bkt.clouddn.com/17-3-3/74162441-file_1488550832724_b661.jpg" alt="Alt">  </p>
 </blockquote>
 <a id="more"></a>
 <h2 id="2-音乐解析：http-1024me-butterfly-mopaasapp-com"><a href="#2-音乐解析：http-1024me-butterfly-mopaasapp-com" class="headerlink" title="2.音乐解析：http://1024me.butterfly.mopaasapp.com/"></a>2.音乐解析：<a href="http://1024me.butterfly.mopaasapp.com/" target="_blank" rel="external">http://1024me.butterfly.mopaasapp.com/</a></h2><blockquote>
-<p><img src="http://om8k74ojm.bkt.clouddn.com/17-3-3/5296451-file_1488550834049_31aa.jpg" alt="Alt">  </p>
+<p><img src="https://om8k74ojm.bkt.clouddn.com/17-3-3/5296451-file_1488550834049_31aa.jpg" alt="Alt">  </p>
 </blockquote>
 <h2 id="3-在线音乐下载：http-music-dsqndh-com"><a href="#3-在线音乐下载：http-music-dsqndh-com" class="headerlink" title="3.在线音乐下载：http://music.dsqndh.com/"></a>3.在线音乐下载：<a href="http://music.dsqndh.com/" target="_blank" rel="external">http://music.dsqndh.com/</a></h2><blockquote>
-<p><img src="http://om8k74ojm.bkt.clouddn.com/17-3-3/35336565-file_1488550835619_d951.jpg" alt="Alt">  </p>
+<p><img src="https://om8k74ojm.bkt.clouddn.com/17-3-3/35336565-file_1488550835619_d951.jpg" alt="Alt">  </p>
 </blockquote>
 <h2 id="4-网易云音乐在线搜索：http-zwyqzd-czqin-com-yy"><a href="#4-网易云音乐在线搜索：http-zwyqzd-czqin-com-yy" class="headerlink" title="4.网易云音乐在线搜索：http://zwyqzd.czqin.com/yy/"></a>4.网易云音乐在线搜索：<a href="http://zwyqzd.czqin.com/yy/" target="_blank" rel="external">http://zwyqzd.czqin.com/yy/</a></h2><blockquote>
-<p><img src="http://om8k74ojm.bkt.clouddn.com/17-3-3/71486784-file_1488550837230_51de.jpg" alt="Alt">  </p>
+<p><img src="https://om8k74ojm.bkt.clouddn.com/17-3-3/71486784-file_1488550837230_51de.jpg" alt="Alt">  </p>
 </blockquote>
 ]]></content>
     
@@ -578,7 +578,7 @@
 &lt;li&gt;这是几个可以下曲子的网站，有的还可以作外链用，很不错。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;1-音乐查询工具：https-music-liuli-lol&quot;&gt;&lt;a href=&quot;#1-音乐查询工具：https-music-liuli-lol&quot; class=&quot;headerlink&quot; title=&quot;1.音乐查询工具：https://music.liuli.lol/ &quot;&gt;&lt;/a&gt;1.音乐查询工具：&lt;a href=&quot;https://music.liuli.lol/&quot;&gt;https://music.liuli.lol/&lt;/a&gt; &lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;&lt;img src=&quot;http://om8k74ojm.bkt.clouddn.com/17-3-3/74162441-file_1488550832724_b661.jpg&quot; alt=&quot;Alt&quot;&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://om8k74ojm.bkt.clouddn.com/17-3-3/74162441-file_1488550832724_b661.jpg&quot; alt=&quot;Alt&quot;&gt;  &lt;/p&gt;
 &lt;/blockquote&gt;
     
     </summary>
@@ -593,91 +593,91 @@
     <link href="http://9ajiang.cn/2017/02/21/Cytus%E4%B8%AD%E7%9A%84%E9%9A%90%E8%97%8F%E6%9B%B2%E7%9B%AE/"/>
     <id>http://9ajiang.cn/2017/02/21/Cytus中的隐藏曲目/</id>
     <published>2017-02-21T09:06:31.000Z</published>
-    <updated>2017-12-05T14:40:17.667Z</updated>
+    <updated>2018-07-30T05:40:30.217Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Alive："><a href="#Alive：" class="headerlink" title="Alive："></a>Alive：</h2><ul>
 <li>歌曲：在 Chapter I 到 Chapter X 和 Chapter Million 上<blockquote>
-<p>方法：在封面按下绿色的数字为easy，按下红色数字为hard<br><img src="http://om8k74ojm.bkt.clouddn.com/17-3-3/69265083-file_1488550697849_14fbb.jpg" alt="Alt text"></p>
+<p>方法：在封面按下绿色的数字为easy，按下红色数字为hard<br><img src="https://om8k74ojm.bkt.clouddn.com/17-3-3/69265083-file_1488550697849_14fbb.jpg" alt="Alt text"></p>
 </blockquote>
 </li>
 </ul>
 <a id="more"></a>
 <h2 id="Chapter-I："><a href="#Chapter-I：" class="headerlink" title="Chapter I："></a>Chapter I：</h2><ul>
 <li>歌曲名：Ververg ver.B<blockquote>
-<p>方法：当那个小人手上的火把变暗的時候，按那个火把(可能会感应不良，所以变暗時请多点几下)<br><img src="http://om8k74ojm.bkt.clouddn.com/17-3-3/88074536-file_1488550699505_dc75.jpg" alt="Alt text"></p>
+<p>方法：当那个小人手上的火把变暗的時候，按那个火把(可能会感应不良，所以变暗時请多点几下)<br><img src="https://om8k74ojm.bkt.clouddn.com/17-3-3/88074536-file_1488550699505_dc75.jpg" alt="Alt text"></p>
 </blockquote>
 </li>
 </ul>
 <h2 id="Chapter-II："><a href="#Chapter-II：" class="headerlink" title="Chapter II："></a>Chapter II：</h2><ul>
 <li><p>歌曲名：Precipitation ver.B</p>
 <blockquote>
-<p>方法：从画面左上方和右上方一起划下去<br><img src="http://om8k74ojm.bkt.clouddn.com/17-3-3/94184155-file_1488550700937_12aaa.jpg" alt="Alt text"> </p>
+<p>方法：从画面左上方和右上方一起划下去<br><img src="https://om8k74ojm.bkt.clouddn.com/17-3-3/94184155-file_1488550700937_12aaa.jpg" alt="Alt text"> </p>
 </blockquote>
 </li>
 <li><p>歌曲名：Precipitation at the Entrance I (左翼)</p>
 <blockquote>
-<p>方法：將左边的翅膀拉到中间<br><img src="http://om8k74ojm.bkt.clouddn.com/17-3-3/6721355-file_1488550702466_1183a.jpg" alt="Alt text"></p>
+<p>方法：將左边的翅膀拉到中间<br><img src="https://om8k74ojm.bkt.clouddn.com/17-3-3/6721355-file_1488550702466_1183a.jpg" alt="Alt text"></p>
 </blockquote>
 </li>
 <li><p>歌曲名：Precipitation at the Entrance II (右翼)</p>
 <blockquote>
-<p>方法：將右边的翅膀拉到中间<br><img src="http://om8k74ojm.bkt.clouddn.com/17-3-3/73778597-file_1488550705102_cd12.jpg" alt="Alt text"></p>
+<p>方法：將右边的翅膀拉到中间<br><img src="https://om8k74ojm.bkt.clouddn.com/17-3-3/73778597-file_1488550705102_cd12.jpg" alt="Alt text"></p>
 </blockquote>
 </li>
 </ul>
 <h2 id="Chapter-III："><a href="#Chapter-III：" class="headerlink" title="Chapter III："></a>Chapter III：</h2><ul>
 <li>歌曲名：Saika ver.B<blockquote>
-<p>方法：分別點一下彩跟華，当这两格都变成蓝色时就成功了<br><img src="http://om8k74ojm.bkt.clouddn.com/17-3-3/62321768-file_1488550706869_11c85.jpg" alt="Alt text"></p>
+<p>方法：分別點一下彩跟華，当这两格都变成蓝色时就成功了<br><img src="https://om8k74ojm.bkt.clouddn.com/17-3-3/62321768-file_1488550706869_11c85.jpg" alt="Alt text"></p>
 </blockquote>
 </li>
 </ul>
 <h2 id="Chapter-VII："><a href="#Chapter-VII：" class="headerlink" title="Chapter VII："></a>Chapter VII：</h2><ul>
 <li><p>歌曲名：L2 ver.A(红L)</p>
 <blockquote>
-<p>方法：长按中间的L，当它变成红色時放开<br><img src="http://om8k74ojm.bkt.clouddn.com/17-3-3/70289037-file_1488550708541_12437.jpg" alt="Alt text"></p>
+<p>方法：长按中间的L，当它变成红色時放开<br><img src="https://om8k74ojm.bkt.clouddn.com/17-3-3/70289037-file_1488550708541_12437.jpg" alt="Alt text"></p>
 </blockquote>
 </li>
 <li><p>歌曲名：L2 ver.B(蓝L)</p>
 <blockquote>
-<p>方法：长按中间的L，当它变成蓝色時放开（变红色时不要放开）<br><img src="http://om8k74ojm.bkt.clouddn.com/17-3-3/55702118-file_1488550710282_3189.jpg" alt="Alt text"></p>
+<p>方法：长按中间的L，当它变成蓝色時放开（变红色时不要放开）<br><img src="https://om8k74ojm.bkt.clouddn.com/17-3-3/55702118-file_1488550710282_3189.jpg" alt="Alt text"></p>
 </blockquote>
 </li>
 </ul>
 <h2 id="Chapter-VIII："><a href="#Chapter-VIII：" class="headerlink" title="Chapter VIII："></a>Chapter VIII：</h2><ul>
 <li><p>歌曲名：slit I</p>
 <blockquote>
-<p>方法：沿着中间的线划下去<br><img src="http://om8k74ojm.bkt.clouddn.com/17-3-3/71417656-file_1488550712054_48ea.jpg" alt="Alt text"></p>
+<p>方法：沿着中间的线划下去<br><img src="https://om8k74ojm.bkt.clouddn.com/17-3-3/71417656-file_1488550712054_48ea.jpg" alt="Alt text"></p>
 </blockquote>
 </li>
 <li><p>歌曲名：slit O</p>
 <blockquote>
-<p>方法：和中间的线呈镜像划下去(还是看图吧…)<br><img src="http://om8k74ojm.bkt.clouddn.com/17-3-3/76147777-file_1488550713782_f901.jpg" alt="Alt text"></p>
+<p>方法：和中间的线呈镜像划下去(还是看图吧…)<br><img src="https://om8k74ojm.bkt.clouddn.com/17-3-3/76147777-file_1488550713782_f901.jpg" alt="Alt text"></p>
 </blockquote>
 </li>
 </ul>
 <h2 id="Chapter-IX："><a href="#Chapter-IX：" class="headerlink" title="Chapter IX："></a>Chapter IX：</h2><ul>
 <li>歌曲名：First Gate Overdrive<blockquote>
-<p>方法：按一下标题<br><img src="http://om8k74ojm.bkt.clouddn.com/17-3-3/18074250-file_1488550715611_15b72.jpg" alt="Alt text"></p>
+<p>方法：按一下标题<br><img src="https://om8k74ojm.bkt.clouddn.com/17-3-3/18074250-file_1488550715611_15b72.jpg" alt="Alt text"></p>
 </blockquote>
 </li>
 </ul>
 <h2 id="Chapter-Knight："><a href="#Chapter-Knight：" class="headerlink" title="Chapter Knight："></a>Chapter Knight：</h2><ul>
 <li>歌曲名：Where You Are Not,Music. The Eternity Of Us<blockquote>
-<p>方法：耐心的打完前面的歌曲吧！<br><img src="http://om8k74ojm.bkt.clouddn.com/17-3-3/54895186-file_1488550720801_15508.jpg" alt="Alt text">  </p>
+<p>方法：耐心的打完前面的歌曲吧！<br><img src="https://om8k74ojm.bkt.clouddn.com/17-3-3/54895186-file_1488550720801_15508.jpg" alt="Alt text">  </p>
 <hr>
-<p><img src="http://om8k74ojm.bkt.clouddn.com/17-3-3/87153045-file_1488550722591_15850.jpg" alt="Alt text">  </p>
+<p><img src="https://om8k74ojm.bkt.clouddn.com/17-3-3/87153045-file_1488550722591_15850.jpg" alt="Alt text">  </p>
 </blockquote>
 </li>
 </ul>
 <h2 id="Chapter-Retro："><a href="#Chapter-Retro：" class="headerlink" title="Chapter Retro："></a>Chapter Retro：</h2><ul>
 <li>歌曲名：conflict<blockquote>
-<p>方法：按标题十三下<br><img src="http://om8k74ojm.bkt.clouddn.com/17-3-3/65802607-file_1488550724422_eaae.jpg" alt="Alt text"> </p>
+<p>方法：按标题十三下<br><img src="https://om8k74ojm.bkt.clouddn.com/17-3-3/65802607-file_1488550724422_eaae.jpg" alt="Alt text"> </p>
 </blockquote>
 </li>
 </ul>
 <h2 id="Chapter-Million："><a href="#Chapter-Million：" class="headerlink" title="Chapter Million："></a>Chapter Million：</h2><ul>
 <li>歌曲名：The Long Years<blockquote>
-<p>方法：按机器人的耳朵<br><img src="http://om8k74ojm.bkt.clouddn.com/17-3-3/7814362-file_1488550726614_d2e7.jpg" alt="Alt text"> </p>
+<p>方法：按机器人的耳朵<br><img src="https://om8k74ojm.bkt.clouddn.com/17-3-3/7814362-file_1488550726614_d2e7.jpg" alt="Alt text"> </p>
 </blockquote>
 </li>
 </ul>
@@ -687,7 +687,7 @@
     
       &lt;h2 id=&quot;Alive：&quot;&gt;&lt;a href=&quot;#Alive：&quot; class=&quot;headerlink&quot; title=&quot;Alive：&quot;&gt;&lt;/a&gt;Alive：&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;歌曲：在 Chapter I 到 Chapter X 和 Chapter Million 上&lt;blockquote&gt;
-&lt;p&gt;方法：在封面按下绿色的数字为easy，按下红色数字为hard&lt;br&gt;&lt;img src=&quot;http://om8k74ojm.bkt.clouddn.com/17-3-3/69265083-file_1488550697849_14fbb.jpg&quot; alt=&quot;Alt text&quot;&gt;&lt;/p&gt;
+&lt;p&gt;方法：在封面按下绿色的数字为easy，按下红色数字为hard&lt;br&gt;&lt;img src=&quot;https://om8k74ojm.bkt.clouddn.com/17-3-3/69265083-file_1488550697849_14fbb.jpg&quot; alt=&quot;Alt text&quot;&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -704,12 +704,12 @@
     <link href="http://9ajiang.cn/2017/02/18/%E3%80%8A%E5%A3%B3%E4%B8%AD%E5%B0%91%E5%A5%B3%E3%80%8B--%E5%90%8D%E4%B8%BA%E8%BF%87%E5%8E%BB%E7%9A%84%E6%9D%9F%E7%BC%9A/"/>
     <id>http://9ajiang.cn/2017/02/18/《壳中少女》--名为过去的束缚/</id>
     <published>2017-02-18T05:09:40.000Z</published>
-    <updated>2017-12-05T14:40:17.667Z</updated>
+    <updated>2018-07-30T05:37:18.785Z</updated>
     
     <content type="html"><![CDATA[<hr>
-<p><img src="http://om8k74ojm.bkt.clouddn.com/17-3-3/97871075-file_1488550598655_1233.jpg" alt="Alt text">    </p>
+<p><img src="https://om8k74ojm.bkt.clouddn.com/17-3-3/97871075-file_1488550598655_1233.jpg" alt="Alt text">    </p>
 <a id="more"></a>
-<p><img src="http://om8k74ojm.bkt.clouddn.com/17-3-3/74514563-file_1488550605700_69a.jpg" alt="Alt text">    </p>
+<p><img src="https://om8k74ojm.bkt.clouddn.com/17-3-3/74514563-file_1488550605700_69a.jpg" alt="Alt text">    </p>
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="86" src="//music.163.com/outchain/player?type=2&id=28466105&auto=1&height=66"></iframe>
 
 
@@ -729,7 +729,7 @@
     <summary type="html">
     
       &lt;hr&gt;
-&lt;p&gt;&lt;img src=&quot;http://om8k74ojm.bkt.clouddn.com/17-3-3/97871075-file_1488550598655_1233.jpg&quot; alt=&quot;Alt text&quot;&gt;    &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://om8k74ojm.bkt.clouddn.com/17-3-3/97871075-file_1488550598655_1233.jpg&quot; alt=&quot;Alt text&quot;&gt;    &lt;/p&gt;
     
     </summary>
     
@@ -743,43 +743,43 @@
     <link href="http://9ajiang.cn/2017/02/17/%E3%80%90Cytus%E3%80%91Chapter%20K--Iris&amp;Rosabel%E7%9A%84%E7%9B%B8%E7%88%B1%E7%9B%B8%E6%9D%80/"/>
     <id>http://9ajiang.cn/2017/02/17/【Cytus】Chapter K--Iris&amp;Rosabel的相爱相杀/</id>
     <published>2017-02-17T08:13:31.000Z</published>
-    <updated>2017-12-05T14:40:17.667Z</updated>
+    <updated>2018-07-30T05:39:12.024Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="http://om8k74ojm.bkt.clouddn.com/17-3-3/6004616-file_1488550276662_bc99.jpg" alt="Alt text"></p>
+    <content type="html"><![CDATA[<p><img src="https://om8k74ojm.bkt.clouddn.com/17-3-3/6004616-file_1488550276662_bc99.jpg" alt="Alt text"></p>
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="86" src="//music.163.com/outchain/player?type=2&id=28302584&auto=0&height=66"></iframe>
 
 <p>这一个章节讲述的就是Holy knight中蓝骑士Iris和红女王Rosabel之间爱爱恨恨打打杀杀的故事（并不）。两个女孩子童年时形影不离两小无猜，却因为战火而被分割，最终刀剑相向的故事，标准的相爱相杀。其过程中两人之间的爱恨缠绵也是令人无限遐想。只可惜CYTUS是个音乐游戏而不是画集，不过也正因如此，我们才能从音乐中揣摩两人的情感，况且插图已经建立起了清晰的剧情框架。</p>
 <a id="more"></a>
 <hr>
-<h1 id="第一首曲子：Memories-The-Way-We-Were"><a href="#第一首曲子：Memories-The-Way-We-Were" class="headerlink" title="第一首曲子：Memories-The Way We Were"></a>第一首曲子：Memories-The Way We Were</h1><p><img src="http://om8k74ojm.bkt.clouddn.com/17-3-3/28553886-file_1488550283486_b9df.jpg" alt="Alt text"><br><img src="http://om8k74ojm.bkt.clouddn.com/17-3-3/94701907-file_1488550286586_476b.jpg" alt="Alt text"> </p>
+<h1 id="第一首曲子：Memories-The-Way-We-Were"><a href="#第一首曲子：Memories-The-Way-We-Were" class="headerlink" title="第一首曲子：Memories-The Way We Were"></a>第一首曲子：Memories-The Way We Were</h1><p><img src="https://om8k74ojm.bkt.clouddn.com/17-3-3/28553886-file_1488550283486_b9df.jpg" alt="Alt text"><br><img src="https://om8k74ojm.bkt.clouddn.com/17-3-3/94701907-file_1488550286586_476b.jpg" alt="Alt text"> </p>
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="86" src="//music.163.com/outchain/player?type=2&id=33035706&auto=0&height=66"></iframe>
 
 <blockquote>
 <p>曲子十分明快，小快板充分体现了Iris和Rosabel童年时的欢乐和两人之间氤氲的感情（并不）。这张曲图已经很明显的暗示了两人的身份：Iris身处教会之中而Rosabel是贵族家的千金（地位差也是萌点）懂雷亚的人应该发现雷亚再次使用了广告吉祥物曼陀萝仔，细看看可以发现树上全是曼陀萝。但正如标题所说的，The Way We Were，这已经是过去的事，早已成为了无法触及的Memories。    </p>
 </blockquote>
 <hr>
-<h1 id="第二首曲子：Blessing-The-Sanctuary"><a href="#第二首曲子：Blessing-The-Sanctuary" class="headerlink" title="第二首曲子：Blessing-The Sanctuary"></a>第二首曲子：Blessing-The Sanctuary</h1><p><img src="http://om8k74ojm.bkt.clouddn.com/17-3-3/84881481-file_1488550289631_15c80.jpg" alt="Alt text"><br><img src="http://om8k74ojm.bkt.clouddn.com/17-3-3/67163336-file_1488550292735_afcd.jpg" alt="Alt text">  </p>
+<h1 id="第二首曲子：Blessing-The-Sanctuary"><a href="#第二首曲子：Blessing-The-Sanctuary" class="headerlink" title="第二首曲子：Blessing-The Sanctuary"></a>第二首曲子：Blessing-The Sanctuary</h1><p><img src="https://om8k74ojm.bkt.clouddn.com/17-3-3/84881481-file_1488550289631_15c80.jpg" alt="Alt text"><br><img src="https://om8k74ojm.bkt.clouddn.com/17-3-3/67163336-file_1488550292735_afcd.jpg" alt="Alt text">  </p>
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="86" src="//music.163.com/outchain/player?type=2&id=33035707&auto=0&height=66"></iframe>
 
 <blockquote>
 <p>此曲再次证明了Iris的身份，曲风庄严，不禁让我想起恶魔城，部分采用了Holy Knight的旋律（基本上每首曲子都有采用部分Holy Knight的旋律）此时的Iris是否是在为自己和Rosabel的未来祈祷呢？</p>
 </blockquote>
 <hr>
-<h1 id="第三首曲子：Calamity-The-Red-Coronation"><a href="#第三首曲子：Calamity-The-Red-Coronation" class="headerlink" title="第三首曲子：Calamity-The Red Coronation"></a>第三首曲子：Calamity-The Red Coronation</h1><p><img src="http://om8k74ojm.bkt.clouddn.com/17-3-3/43254421-file_1488550295142_13b2b.jpg" alt="Alt text"><br><img src="http://om8k74ojm.bkt.clouddn.com/17-3-3/41261397-file_1488550297053_4498.jpg" alt="Alt text">  </p>
+<h1 id="第三首曲子：Calamity-The-Red-Coronation"><a href="#第三首曲子：Calamity-The-Red-Coronation" class="headerlink" title="第三首曲子：Calamity-The Red Coronation"></a>第三首曲子：Calamity-The Red Coronation</h1><p><img src="https://om8k74ojm.bkt.clouddn.com/17-3-3/43254421-file_1488550295142_13b2b.jpg" alt="Alt text"><br><img src="https://om8k74ojm.bkt.clouddn.com/17-3-3/41261397-file_1488550297053_4498.jpg" alt="Alt text">  </p>
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="86" src="//music.163.com/outchain/player?type=2&id=33035708&auto=0&height=66"></iframe>
 
 <blockquote>
 <p>我倾向把取名翻译成红色加冕礼。曲风悲伤。因为战火，年幼的Rosabel的父母都被杀死，只有随行的侍女带着她逃出了家园。曲名很好的为下面的剧情埋下伏笔，这一晚家人们的鲜血让Rosabel成为了将来残酷的女王，也让征服这个愚蠢的世界这一念头埋在了Rosabel的心底。</p>
 </blockquote>
 <hr>
-<h1 id="第四首曲子：Bewitched-Forbidden-Codex"><a href="#第四首曲子：Bewitched-Forbidden-Codex" class="headerlink" title="第四首曲子：Bewitched-Forbidden Codex"></a>第四首曲子：Bewitched-Forbidden Codex</h1><p><img src="http://om8k74ojm.bkt.clouddn.com/17-3-3/36437547-file_1488550299103_dd56.jpg" alt="Alt text"><br><img src="http://om8k74ojm.bkt.clouddn.com/17-3-3/41353511-file_1488550301214_cc88.jpg" alt="Alt text">  </p>
+<h1 id="第四首曲子：Bewitched-Forbidden-Codex"><a href="#第四首曲子：Bewitched-Forbidden-Codex" class="headerlink" title="第四首曲子：Bewitched-Forbidden Codex"></a>第四首曲子：Bewitched-Forbidden Codex</h1><p><img src="https://om8k74ojm.bkt.clouddn.com/17-3-3/36437547-file_1488550299103_dd56.jpg" alt="Alt text"><br><img src="https://om8k74ojm.bkt.clouddn.com/17-3-3/41353511-file_1488550301214_cc88.jpg" alt="Alt text">  </p>
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="86" src="//music.163.com/outchain/player?type=2&id=33035709&auto=0&height=66"></iframe>
 
 <blockquote>
 <p>不难看出，Rosabel已经被仇恨蒙蔽了双眼，她无意间得到了禁忌的法典，也许如标题所说的，她已经变成了一个魔女。作曲是Hoskey，又开始了他擅长的架空语言谱曲，整首曲子阴暗抑郁，让人不禁为堕落的Rosabel担忧。</p>
 </blockquote>
 <hr>
-<h1 id="第五首曲子：The-Chevalier-Knight-of-Firmament"><a href="#第五首曲子：The-Chevalier-Knight-of-Firmament" class="headerlink" title="第五首曲子：The Chevalier-Knight of Firmament"></a>第五首曲子：The Chevalier-Knight of Firmament</h1><p><img src="http://om8k74ojm.bkt.clouddn.com/17-3-3/24804552-file_1488550306179_13576.jpg" alt="Alt text"><br><img src="http://om8k74ojm.bkt.clouddn.com/17-3-3/59388570-file_1488550312372_64eb.jpg" alt="Alt text">  </p>
+<h1 id="第五首曲子：The-Chevalier-Knight-of-Firmament"><a href="#第五首曲子：The-Chevalier-Knight-of-Firmament" class="headerlink" title="第五首曲子：The Chevalier-Knight of Firmament"></a>第五首曲子：The Chevalier-Knight of Firmament</h1><p><img src="https://om8k74ojm.bkt.clouddn.com/17-3-3/24804552-file_1488550306179_13576.jpg" alt="Alt text"><br><img src="https://om8k74ojm.bkt.clouddn.com/17-3-3/59388570-file_1488550312372_64eb.jpg" alt="Alt text">  </p>
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="86" src="//music.163.com/outchain/player?type=2&id=33035710&auto=0&height=66"></iframe>
 
 <blockquote>
@@ -787,7 +787,7 @@
 <p>–看起来Iris是真的爱上了Rosabel</p>
 </blockquote>
 <hr>
-<h1 id="第六首曲子：The-Queen-Lord-of-Crimson-Rose"><a href="#第六首曲子：The-Queen-Lord-of-Crimson-Rose" class="headerlink" title="第六首曲子：The Queen-Lord of Crimson Rose"></a>第六首曲子：The Queen-Lord of Crimson Rose</h1><p><img src="http://om8k74ojm.bkt.clouddn.com/17-3-3/98564341-file_1488550314773_b339.jpg" alt="Alt text"><br><img src="http://om8k74ojm.bkt.clouddn.com/17-3-3/59895563-file_1488550316982_8cc9.jpg" alt="Alt text">  </p>
+<h1 id="第六首曲子：The-Queen-Lord-of-Crimson-Rose"><a href="#第六首曲子：The-Queen-Lord-of-Crimson-Rose" class="headerlink" title="第六首曲子：The Queen-Lord of Crimson Rose"></a>第六首曲子：The Queen-Lord of Crimson Rose</h1><p><img src="https://om8k74ojm.bkt.clouddn.com/17-3-3/98564341-file_1488550314773_b339.jpg" alt="Alt text"><br><img src="https://om8k74ojm.bkt.clouddn.com/17-3-3/59895563-file_1488550316982_8cc9.jpg" alt="Alt text">  </p>
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="86" src="//music.163.com/outchain/player?type=2&id=33223125&auto=0&height=66"></iframe>
 
 <blockquote>
@@ -796,15 +796,15 @@
 <p>–rosabel的歌词更像是憎恨的化身，忘记除了仇恨以外的一切东西</p>
 </blockquote>
 <hr>
-<h1 id="第七首曲子：Farewell-Predawn"><a href="#第七首曲子：Farewell-Predawn" class="headerlink" title="第七首曲子：Farewell-Predawn"></a>第七首曲子：Farewell-Predawn</h1><p><img src="http://om8k74ojm.bkt.clouddn.com/17-3-3/86637423-file_1488550319023_1f79.jpg" alt="Alt text"><br><img src="http://om8k74ojm.bkt.clouddn.com/17-3-3/37040393-file_1488550321245_1810f.jpg" alt="Alt text">  </p>
+<h1 id="第七首曲子：Farewell-Predawn"><a href="#第七首曲子：Farewell-Predawn" class="headerlink" title="第七首曲子：Farewell-Predawn"></a>第七首曲子：Farewell-Predawn</h1><p><img src="https://om8k74ojm.bkt.clouddn.com/17-3-3/86637423-file_1488550319023_1f79.jpg" alt="Alt text"><br><img src="https://om8k74ojm.bkt.clouddn.com/17-3-3/37040393-file_1488550321245_1810f.jpg" alt="Alt text">  </p>
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="86" src="//music.163.com/outchain/player?type=2&id=33223126&auto=0&height=66"></iframe>
 
 <blockquote>
 <p>决战的前夜，我只能说女王的兵力似乎有优势，但一般最后兵多的那一方都会输。正如曲名一样Predawn，黎明前的，也是战争前的最后一刻，Farewell，两人的见面，却又是告别之时。</p>
 </blockquote>
 <hr>
-<h1 id="第八首曲子：The-Duel-The-Fallen-Bloom"><a href="#第八首曲子：The-Duel-The-Fallen-Bloom" class="headerlink" title="第八首曲子：The Duel-The Fallen Bloom"></a>第八首曲子：The Duel-The Fallen Bloom</h1><p><img src="http://om8k74ojm.bkt.clouddn.com/17-3-3/20776126-file_1488550323598_1043f.jpg" alt="Alt text">  </p>
-<p><img src="http://om8k74ojm.bkt.clouddn.com/17-3-3/16155284-file_1488550326782_fef7.jpg" alt="Alt text"><br><img src="http://om8k74ojm.bkt.clouddn.com/17-3-3/53512901-file_1488550328887_5e81.jpg" alt="Alt text">  </p>
+<h1 id="第八首曲子：The-Duel-The-Fallen-Bloom"><a href="#第八首曲子：The-Duel-The-Fallen-Bloom" class="headerlink" title="第八首曲子：The Duel-The Fallen Bloom"></a>第八首曲子：The Duel-The Fallen Bloom</h1><p><img src="https://om8k74ojm.bkt.clouddn.com/17-3-3/20776126-file_1488550323598_1043f.jpg" alt="Alt text">  </p>
+<p><img src="https://om8k74ojm.bkt.clouddn.com/17-3-3/16155284-file_1488550326782_fef7.jpg" alt="Alt text"><br><img src="https://om8k74ojm.bkt.clouddn.com/17-3-3/53512901-file_1488550328887_5e81.jpg" alt="Alt text">  </p>
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="86" src="//music.163.com/outchain/player?type=2&id=33223127&auto=0&height=66"></iframe>
 
 <blockquote>
@@ -813,14 +813,14 @@
 <p>–简直了，两人虽然不想战斗却无法避开这场决斗，真是非常悲伤。  </p>
 </blockquote>
 <hr>
-<h1 id="第九首曲子：Curtain-Fall-Where-You-Are-Not"><a href="#第九首曲子：Curtain-Fall-Where-You-Are-Not" class="headerlink" title="第九首曲子：Curtain Fall-Where You Are Not"></a>第九首曲子：Curtain Fall-Where You Are Not</h1><p><img src="http://om8k74ojm.bkt.clouddn.com/17-3-3/12660518-file_1488550330949_b519.jpg" alt="Alt text"><br><img src="http://om8k74ojm.bkt.clouddn.com/17-3-3/20102825-file_1488550333291_8138.jpg" alt="Alt text">  </p>
+<h1 id="第九首曲子：Curtain-Fall-Where-You-Are-Not"><a href="#第九首曲子：Curtain-Fall-Where-You-Are-Not" class="headerlink" title="第九首曲子：Curtain Fall-Where You Are Not"></a>第九首曲子：Curtain Fall-Where You Are Not</h1><p><img src="https://om8k74ojm.bkt.clouddn.com/17-3-3/12660518-file_1488550330949_b519.jpg" alt="Alt text"><br><img src="https://om8k74ojm.bkt.clouddn.com/17-3-3/20102825-file_1488550333291_8138.jpg" alt="Alt text">  </p>
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="86" src="//music.163.com/outchain/player?type=2&id=33223129&auto=0&height=66"></iframe>
 
 <blockquote>
 <p>隐藏曲，通过(有成绩）前面所有曲子便可解开。Rosabel的生命已经被终结，而且是被Iris亲手。。。Where You Are Not应该是一个状语从句的一部分，where指代的也许就是这个世界，意思就是“没有你的世界”。我本以为曲图会是抱着尸体什么的，但却只有Iris一人站在夕阳前。仔细一看的话发现Iris拿着Rosabel的剑，瞬间感觉心灵被慰藉了。生与死不足以切断两人的羁绊，按照曲子最后的并不祥和的快节奏带给我的震撼感，我推测Iris大概是殉情了。  </p>
 </blockquote>
 <hr>
-<h1 id="第十首曲子：Alternative-The-Eternity-Of-Us"><a href="#第十首曲子：Alternative-The-Eternity-Of-Us" class="headerlink" title="第十首曲子：Alternative-The Eternity Of Us"></a>第十首曲子：Alternative-The Eternity Of Us</h1><p><img src="http://om8k74ojm.bkt.clouddn.com/17-3-3/16128734-file_1488550335421_15895.jpg" alt="Alt text"><br><img src="http://om8k74ojm.bkt.clouddn.com/17-3-3/79586632-file_1488550337647_dc39.jpg" alt="Alt text">  </p>
+<h1 id="第十首曲子：Alternative-The-Eternity-Of-Us"><a href="#第十首曲子：Alternative-The-Eternity-Of-Us" class="headerlink" title="第十首曲子：Alternative-The Eternity Of Us"></a>第十首曲子：Alternative-The Eternity Of Us</h1><p><img src="https://om8k74ojm.bkt.clouddn.com/17-3-3/16128734-file_1488550335421_15895.jpg" alt="Alt text"><br><img src="https://om8k74ojm.bkt.clouddn.com/17-3-3/79586632-file_1488550337647_dc39.jpg" alt="Alt text">  </p>
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="86" src="//music.163.com/outchain/player?type=2&id=33223130&auto=0&height=66"></iframe>
 
 <blockquote>
@@ -832,7 +832,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;&lt;img src=&quot;http://om8k74ojm.bkt.clouddn.com/17-3-3/6004616-file_1488550276662_bc99.jpg&quot; alt=&quot;Alt text&quot;&gt;&lt;/p&gt;
+      &lt;p&gt;&lt;img src=&quot;https://om8k74ojm.bkt.clouddn.com/17-3-3/6004616-file_1488550276662_bc99.jpg&quot; alt=&quot;Alt text&quot;&gt;&lt;/p&gt;
 &lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=100% height=86 src=&quot;//music.163.com/outchain/player?type=2&amp;id=28302584&amp;auto=0&amp;height=66&quot;&gt;&lt;/iframe&gt;
 
 &lt;p&gt;这一个章节讲述的就是Holy knight中蓝骑士Iris和红女王Rosabel之间爱爱恨恨打打杀杀的故事（并不）。两个女孩子童年时形影不离两小无猜，却因为战火而被分割，最终刀剑相向的故事，标准的相爱相杀。其过程中两人之间的爱恨缠绵也是令人无限遐想。只可惜CYTUS是个音乐游戏而不是画集，不过也正因如此，我们才能从音乐中揣摩两人的情感，况且插图已经建立起了清晰的剧情框架。&lt;/p&gt;
