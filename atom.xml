@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://9ajiang.cn/"/>
-  <updated>2018-08-07T10:51:23.729Z</updated>
+  <updated>2018-11-08T12:27:54.888Z</updated>
   <id>https://9ajiang.cn/</id>
   
   <author>
@@ -14,6 +14,47 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>博客大事记</title>
+    <link href="https://9ajiang.cn/2018/11/08/%E5%8D%9A%E5%AE%A2%E5%A4%A7%E4%BA%8B%E8%AE%B0/"/>
+    <id>https://9ajiang.cn/2018/11/08/博客大事记/</id>
+    <published>2018-11-08T12:26:43.000Z</published>
+    <updated>2018-11-08T12:27:54.888Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="–2018-11-8–"><a href="#–2018-11-8–" class="headerlink" title="–2018.11.8–"></a>–2018.11.8–</h1><blockquote>
+<p>由于更换固态硬盘，系统重装，博客重新搭建。</p>
+</blockquote>
+<a id="more"></a>
+<h1 id="–2017-8-2–"><a href="#–2017-8-2–" class="headerlink" title="–2017.8.2–"></a>–2017.8.2–</h1><blockquote>
+<p>由于电脑系统重装，重新搭建。</p>
+</blockquote>
+<h1 id="—2017-4-27—"><a href="#—2017-4-27—" class="headerlink" title="—2017.4.27—"></a>—2017.4.27—</h1><blockquote>
+<p>将网易云跟帖替换成<a href="http://changyan.kuaizhan.com/" target="_blank" rel="external">畅言</a>。</p>
+</blockquote>
+<h1 id="—2017-4-7—"><a href="#—2017-4-7—" class="headerlink" title="—2017.4.7—"></a>—2017.4.7—</h1><blockquote>
+<p>由于多说即将关闭，故将评论系统更换为网易云跟帖。</p>
+</blockquote>
+<h1 id="—2017-3-3—"><a href="#—2017-3-3—" class="headerlink" title="—2017.3.3—"></a>—2017.3.3—</h1><blockquote>
+<p>把博客的图片传至<a href="http://yotuku.cn" target="_blank" rel="external">极简图床</a>，应该对加快访问速度有所帮助。</p>
+</blockquote>
+<h1 id="—2017-2-18—"><a href="#—2017-2-18—" class="headerlink" title="—2017.2.18—"></a>—2017.2.18—</h1><blockquote>
+<p>手贱删了一点博客内的文件导致无法generate，技术有限只好把整个博客根目录搬迁重新搭建，删了一些划水的文章。反正没多少人看，自己开心就好23333</p>
+</blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;–2018-11-8–&quot;&gt;&lt;a href=&quot;#–2018-11-8–&quot; class=&quot;headerlink&quot; title=&quot;–2018.11.8–&quot;&gt;&lt;/a&gt;–2018.11.8–&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;由于更换固态硬盘，系统重装，博客重新搭建。&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+    
+      <category term="测试" scheme="https://9ajiang.cn/tags/%E6%B5%8B%E8%AF%95/"/>
+    
+  </entry>
   
   <entry>
     <title>记一次携号转网的经历</title>
@@ -203,44 +244,6 @@
     
     
       <category term="软件" scheme="https://9ajiang.cn/tags/%E8%BD%AF%E4%BB%B6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>博客大事记</title>
-    <link href="https://9ajiang.cn/2017/08/02/%E5%8D%9A%E5%AE%A2%E5%A4%A7%E4%BA%8B%E8%AE%B0/"/>
-    <id>https://9ajiang.cn/2017/08/02/博客大事记/</id>
-    <published>2017-08-02T05:05:43.000Z</published>
-    <updated>2017-12-05T14:40:51.033Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="–2017-8-2–"><a href="#–2017-8-2–" class="headerlink" title="–2017.8.2–"></a>–2017.8.2–</h1><blockquote>
-<p>由于电脑系统重装，重新搭建。</p>
-</blockquote>
-<a id="more"></a>
-<h1 id="—2017-4-27—"><a href="#—2017-4-27—" class="headerlink" title="—2017.4.27—"></a>—2017.4.27—</h1><blockquote>
-<p>将网易云跟帖替换成<a href="http://changyan.kuaizhan.com/" target="_blank" rel="external">畅言</a>。</p>
-</blockquote>
-<h1 id="—2017-4-7—"><a href="#—2017-4-7—" class="headerlink" title="—2017.4.7—"></a>—2017.4.7—</h1><blockquote>
-<p>由于多说即将关闭，故将评论系统更换为网易云跟帖。</p>
-</blockquote>
-<h1 id="—2017-3-3—"><a href="#—2017-3-3—" class="headerlink" title="—2017.3.3—"></a>—2017.3.3—</h1><blockquote>
-<p>把博客的图片传至<a href="http://yotuku.cn" target="_blank" rel="external">极简图床</a>，应该对加快访问速度有所帮助。</p>
-</blockquote>
-<h1 id="—2017-2-18—"><a href="#—2017-2-18—" class="headerlink" title="—2017.2.18—"></a>—2017.2.18—</h1><blockquote>
-<p>手贱删了一点博客内的文件导致无法generate，技术有限只好把整个博客根目录搬迁重新搭建，删了一些划水的文章。反正没多少人看，自己开心就好23333</p>
-</blockquote>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;–2017-8-2–&quot;&gt;&lt;a href=&quot;#–2017-8-2–&quot; class=&quot;headerlink&quot; title=&quot;–2017.8.2–&quot;&gt;&lt;/a&gt;–2017.8.2–&lt;/h1&gt;&lt;blockquote&gt;
-&lt;p&gt;由于电脑系统重装，重新搭建。&lt;/p&gt;
-&lt;/blockquote&gt;
-    
-    </summary>
-    
-    
-      <category term="测试" scheme="https://9ajiang.cn/tags/%E6%B5%8B%E8%AF%95/"/>
     
   </entry>
   
