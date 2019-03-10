@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://9ajiang.cn/"/>
-  <updated>2019-03-10T03:20:40.322Z</updated>
+  <updated>2019-03-10T03:24:55.263Z</updated>
   <id>https://9ajiang.cn/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="https://9ajiang.cn/2019/03/10/VS2017%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
     <id>https://9ajiang.cn/2019/03/10/VS2017常用快捷键/</id>
     <published>2019-03-10T03:10:00.000Z</published>
-    <updated>2019-03-10T03:20:40.322Z</updated>
+    <updated>2019-03-10T03:24:55.263Z</updated>
     
     <content type="html"><![CDATA[<h2 id="1-查找和替换"><a href="#1-查找和替换" class="headerlink" title="1. 查找和替换"></a>1. 查找和替换</h2><ul>
 <li>1）查找：使用组合键“Ctrl+F”；</li>
@@ -44,7 +44,7 @@
 <li>补充：选择一个单词后，按组合键“Ctrl+F”也可调出查找框口，且搜索结果也会被高亮显示。</li>
 </ul>
 <h2 id="5-框式选择"><a href="#5-框式选择" class="headerlink" title="5. 框式选择"></a>5. 框式选择</h2><ul>
-<li>使用组合键“Shift+方向键（或鼠标）”即可完成框式选择。框式选择允许你同时对代码行和列进行选择。这对批量删除某些代码很方便的哦。 </li>
+<li>使用组合键“Alt+Shift+方向键”或者”Alt+鼠标”即可完成框式选择。框式选择允许你同时对代码行和列进行选择。这对批量删除某些代码很方便的哦。 </li>
 </ul>
 <h2 id="6-在光标所在行的上面或下面插入一行"><a href="#6-在光标所在行的上面或下面插入一行" class="headerlink" title="6. 在光标所在行的上面或下面插入一行"></a>6. 在光标所在行的上面或下面插入一行</h2><ul>
 <li>1）组合键“Ctrl+Enter”：在当前行的上面插入一个空行；</li>
