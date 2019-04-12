@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://9ajiang.cn/"/>
-  <updated>2019-04-12T00:50:36.729Z</updated>
+  <updated>2019-04-12T00:55:21.663Z</updated>
   <id>https://9ajiang.cn/</id>
   
   <author>
@@ -17,10 +17,10 @@
   
   <entry>
     <title>使用Python脚本自动登录华科校园网</title>
-    <link href="https://9ajiang.cn/2019/04/11/%E4%BD%BF%E7%94%A8selenium%E8%87%AA%E5%8A%A8%E7%99%BB%E5%BD%95%E5%8D%8E%E7%A7%91%E6%A0%A1%E5%9B%AD%E7%BD%91/"/>
-    <id>https://9ajiang.cn/2019/04/11/使用selenium自动登录华科校园网/</id>
+    <link href="https://9ajiang.cn/2019/04/11/%E4%BD%BF%E7%94%A8Python%E8%84%9A%E6%9C%AC%E8%87%AA%E5%8A%A8%E7%99%BB%E5%BD%95%E5%8D%8E%E7%A7%91%E6%A0%A1%E5%9B%AD%E7%BD%91/"/>
+    <id>https://9ajiang.cn/2019/04/11/使用Python脚本自动登录华科校园网/</id>
     <published>2019-04-11T01:35:00.000Z</published>
-    <updated>2019-04-12T00:50:36.729Z</updated>
+    <updated>2019-04-12T00:55:21.663Z</updated>
     
     <content type="html"><![CDATA[<h2 id="1-缘由"><a href="#1-缘由" class="headerlink" title="1. 缘由"></a>1. 缘由</h2><p>&nbsp;&nbsp;因为每次清空浏览器缓存之后，chrome都不能自动填充校园网登录的用户名，并且本人也不喜欢校园网客户端这种东西，所以一直在想能不能用过脚本实现一键登录，最近恰好查到了资料，大致找到了两种办法，一种是通过selenium库来模拟点击和文本输入来实现。另一种则是使用requests库来实现。</p>
 <a id="more"></a>
