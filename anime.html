@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+    <link rel="shortcut icon" href="https://9ajiang.cn/img/favicon.png">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul, li {
+            list-style: none
+        }
+
+        #headpart {
+            background: #f3f3f3;
+            overflow: hidden;
+            opacity: 0.5;
+        }
+
+        #headpart li {
+            height: 60px;
+            line-height: 60px;
+            width: 14.28%;
+            float: left;
+            text-align: center;
+        }
+
+        #headpart li.active {
+            color: #099;
+            transition: 0.1s;
+            font-weight: bold
+        }
+
+        #lineBorder {
+            height: 5px;
+            overflow: hidden;
+            background: #f3f3f3;
+            opacity: 0.5;
+        }
+
+        .lineDiv {
+            background: #099;
+            height: 5px;
+            width: 14.28%;
+            float: left;
+        }
+
+        .bangumi {
+            column-width: 100px;
+            column-fill: auto;
+            column-gap: 30px;
+            width: 80%;
+            margin: 15px auto;
+            text-align: center;
+            display: none;
+            margin-bottom: 50px;
+        }
+
+        .bangumi_item {
+            padding: 10px 10px 10px 10px;
+            background-color: white;
+            width: min-content;
+            margin-bottom: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 5px;
+            height: 100%;
+            overflow: auto;
+        }
+
+        .bangumi_item img {
+            width: 100px;
+        }
+
+        .bangumi_item h4 {
+            font-family: 微软雅黑;
+        }
+    </style>
+
+    <script>
+        var Data = {
+            data: [
+                //周一
+                [
+                    "为什么老师会在这里!?", "八月的棒球甜心", "进击的巨人3", "多罗罗",
+                    "RobiHachi", "爆丸Battle planet", "KING OF PRISM",
+                    "南无阿弥陀佛!~莲台 UTENA~", "地元是日本"
+                ],
+                //周二
+                [
+                    "强袭部队501部队出发!", "ULTRAMAN", "黑色五叶草", "钻石王牌act II", "少年阿贝GO!GO!小芝麻第4系列",
+                    "偶像大师灰姑娘女孩剧场CLIMAX", "在世界尽头咏唱恋曲的少女YU-NO", "异世界四重奏"
+                ],
+                //周三
+                [
+                    "一拳超人2", "盾之勇者成名录", "贤惠仙狐小姐", "贤者之孙", "奇喵的画家"
+                ],
+                //周四
+                [
+                    "CAROLE &amp;TUESDAY", "偶像活动Friends!~闪耀光辉的宝石~", "香蕉怪大叔呐呐~呐好奇洞穴乐园",
+                    "叛逆性百万亚瑟王2", "魔偶马戏团", "八十龟观察日记", "B Rappers Street"
+                ],
+                //周五
+                [
+                    "恋爱幕末男友2", "皿三味", "文豪野犬3", "妖怪手表", "战斗陀螺BURST GT"
+                ],
+                //周六
+                [
+                    "水果篮子", "一弦定音", "JOJO的奇妙冒险黄金之风", "川柳少女", "一个人的OO小日子", "ZOIDS WILD/索斯机械兽",
+                    "MIX", "超可动女孩1/6", "女子高中生(若井坚)", "信长老师的幼妻", "毛球权次郎", "丝袜视界", "续·终物语"
+                ],
+                //周日
+                [
+                    "鬼灭之刃", "我们无法一起学习", "爱玩怪兽", "咯咯咯的鬼太郎第六季", "火影忍者博人转", "拾又之国",
+                    "深夜的超自然公务员", "消灭都市", "Fariy gone", "闪耀PRI☆CHAN", "清洗服务!~我和她在女子浴池!?~",
+                    "决斗大师", "机动战士钢弹THE ORIGIN前夜红色彗星"
+                ]
+            ]
+        };
+
+        function onload() {
+            addElement();
+            init();
+            var headli = document.getElementById("headpart").getElementsByTagName("li");
+            for (var l = 0; l < headli.length; ++l) {
+                headli[l].start = l;
+                headli[l].onclick = function () {
+                    clickli(this.start);
+                }
+            }
+        }
+
+
+        function addElement() {
+            var week = document.getElementsByClassName("bangumi");
+            for (var i = 0; i < week.length; ++i) {
+                for (var j = 0; j < Data.data[i].length; ++j) {
+                    var bangumi_item = document.createElement("div");
+                    bangumi_item.className = "bangumi_item";
+                    week[i].appendChild(bangumi_item);
+                    var img = document.createElement("img");
+                    img.src = "https://raw.githubusercontent.com/9Ajiang/9Ajiang.github.io/master/img/anime_list/" + (i + 1) + "." + (j + 1) + ".png";
+                    bangumi_item.appendChild(img);
+                    var hr = document.createElement("hr");
+                    bangumi_item.appendChild(hr);
+                    var h4 = document.createElement("h4");
+                    h4.innerHTML = Data.data[i][j];
+                    bangumi_item.appendChild(h4);
+                }
+            }
+        }
+
+        function init() {
+            var today = new Date().getDay();
+            var cha;
+            switch (today) {
+                case 0:
+                    cha = 6;
+                    alert("今天星期日");
+                    break;
+                case 1:
+                    cha = 0;
+                    alert("今天星期一");
+                    break;
+                case 2:
+                    cha = 1;
+                    alert("今天星期二");
+                    break;
+                case 3:
+                    cha = 2;
+                    alert("今天星期三");
+                    break;
+                case 4:
+                    cha = 3;
+                    alert("今天星期四");
+                    break;
+                case 5:
+                    cha = 4;
+                    alert("今天星期五");
+                    break;
+                case 6:
+                    cha = 5;
+                    alert("今天星期六");
+                    break;
+            }
+            clickli(cha);
+        }
+
+        function clickli(cv) {
+            var week = document.getElementsByClassName("bangumi");
+            var headli = document.getElementById("headpart").getElementsByTagName("li");
+            var line = document.getElementsByClassName("lineDiv");
+            for (var k = 0; k < week.length; ++k) {
+                week[k].style.display = "none";
+                line[k].style.opacity = 0;
+            }
+            for (var i = 0; i < headli.length; i++) {
+                headli[i].className = '';
+            }
+            headli[cv].className = "active";
+            headli[cv].style.transition = "0.3s";
+            week[cv].style.display = "block";
+            week[cv].style.transition = "1000s";
+            line[cv].style.opacity = 1;
+            line[cv].style.transition = "0.3s";
+            switch_color(cv);
+        }
+
+        function switch_color(cv) {
+            switch (cv) {
+                case 0:
+                    document.body.style.backgroundColor = "#F24F50";
+                    document.body.style.transition = "1s";
+                    break;
+                case 1:
+                    document.body.style.backgroundColor = "#FB962A";
+                    document.body.style.transition = "1s";
+                    break;
+                case 2:
+                    document.body.style.backgroundColor = "#FFE153";
+                    document.body.style.transition = "1s";
+                    break;
+                case 3:
+                    document.body.style.backgroundColor = "#63A12D";
+                    document.body.style.transition = "1s";
+                    break;
+                case 4:
+                    document.body.style.backgroundColor = "#40C8D8";
+                    document.body.style.transition = "1s";
+                    break;
+                case 5:
+                    document.body.style.backgroundColor = "#01A419";
+                    document.body.style.transition = "1s";
+                    break;
+                case 6:
+                    document.body.style.backgroundColor = "#9773B1";
+                    document.body.style.transition = "1s";
+                    break;
+            }
+        }
+    </script>
+</head>
+<body onload="onload()">
+<div id="headpart">
+    <ul>
+        <li>周一</li>
+        <li>周二</li>
+        <li>周三</li>
+        <li>周四</li>
+        <li>周五</li>
+        <li>周六</li>
+        <li>周日</li>
+    </ul>
+</div>
+<div id="lineBorder">
+    <div class="lineDiv"></div>
+    <div class="lineDiv"></div>
+    <div class="lineDiv"></div>
+    <div class="lineDiv"></div>
+    <div class="lineDiv"></div>
+    <div class="lineDiv"></div>
+    <div class="lineDiv"></div>
+</div>
+<div class="bangumi">
+</div>
+<div class="bangumi">
+</div>
+<div class="bangumi">
+</div>
+<div class="bangumi">
+</div>
+<div class="bangumi">
+</div>
+<div class="bangumi">
+</div>
+<div class="bangumi">
+</div>
+<div style="position: fixed; bottom: 0px; width: 100%;">
+    <div style="text-align: center">
+        <span style="font-family:微软雅黑; position: relative; color:#fff;"> &copy; &nbsp;2019&nbsp;&nbsp;&nbsp;&nbsp;9A</span>
+    </div>
+</div>
+</body>
+</html>
